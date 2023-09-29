@@ -1,0 +1,56 @@
+{
+    "images_slide": [
+        "../src/images/slider1.jpg",
+        "../src/images/slider2.jpg",
+        "../src/images/slider3.jpg",
+        "../src/images/slider4.jpg"
+    ],
+    
+    "logo_shop":"../src/images/shop-hoa-tuoi-flowercorner-logo.png.jpg",
+    
+    "button_page":[
+        {
+            "url":"hoacuoi",
+            "item":"Hoa Cưới"
+        },
+        {
+            "url":"binhhoa",
+            "item":"Bình Hoa"
+        },
+        {
+            "url":"hoatinhyeu",
+            "item":"Hoa Tình Yêu"
+        },
+        {
+            "url":"bohoa",
+            "item":"Bó Hoa"
+        },
+        {
+            "url":"giohoa",
+            "item":"Giỏ Hoa"
+        },
+        {
+            "url":"hoakhaitruong",
+            "item":"Hoa Khai Trương"
+        }
+
+    ],
+
+    "uudai":[
+        {
+            "img_url":"../src/images/freeship.jpg",
+            "title":"FREE SHIPPING",
+            "content":"Flower Corner giao miễn phí các nội thành TP.HCM đối với tất cả bó hoa, lẵng hoa, và kệ hoa trên 1 triệu."
+        }, 
+        {
+            "img_url":"../src/images/fastdelivery.jpg",
+            "title":"GIAO NHANH TRONG 90 PHÚT",
+            "content":"Flower Corner có thể giao nhanh trong 90' khu vực nội thành TP.HCM với bó / lẵng hoa đơn giản."
+        }, 
+        {
+            "img_url":"../src/images/100guaratedd.jpg",
+            "title":"HOA ĐẸP NHƯ HÌNH",
+            "content":"Cam kết hoa đẹp như hình và giống đến 90% so với hình chụp trên website."
+        }
+    ]
+}
