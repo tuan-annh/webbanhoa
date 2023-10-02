@@ -2,22 +2,31 @@ import PropTypes from "prop-types";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp, faLock } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowUp,
+  faLock,
+  faPowerOff,
+} from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { path } from "../../contanst/path";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { useDispatch, useSelector } from "react-redux";
+import { Logout } from "../../redux/AccountSlice";
 
 function MainLayout({ children }) {
   const [showButton, setShowButton] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const isAuthenticated = useSelector((state) => state.account.isAuthenticated);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
 
   const handleScroll = () => {
-    if (window.pageYOffset > 400) {
+    if (window.pageYOffset > 100) {
       setShowButton(true);
     } else {
       setShowButton(false);
@@ -31,20 +40,38 @@ function MainLayout({ children }) {
   window.addEventListener("scroll", handleScroll);
   return (
     <div>
-      <div className="border-b-2">
+      <div className="border-b-2 hidden sm:block">
         <div className="flex max-w-7xl md:mx-auto justify-between my-2 opacity-80 mx-5">
           <div>
             <span>HOTLINE: 1900 633 045 | 0865 160 360</span>
           </div>
-          <div className="flex gap-3">
+
+          {isAuthenticated ? (
+            <div className="flex gap-5">
+              <div
+                className="flex justify-center items-center gap-1 cursor-pointer hover:text-red-500"
+                onClick={() => navigate(path.profile)}
+              >
+                <FontAwesomeIcon icon={faUser} />
+                <span>Tài khoản</span>
+              </div>
+              <div
+                className="flex justify-center items-center gap-1 cursor-pointer hover:text-red-500"
+                onClick={() => dispatch(Logout())}
+              >
+                <FontAwesomeIcon icon={faPowerOff} />
+                <span>Đăng xuất</span>
+              </div>
+            </div>
+          ) : (
             <div
               className="flex justify-center items-center gap-1 cursor-pointer hover:text-red-500"
               onClick={() => navigate(path.login)}
             >
               <FontAwesomeIcon icon={faLock} />
-              <span className=" hidden md:block">Đăng nhập</span>
+              <span>Đăng nhập</span>
             </div>
-          </div>
+          )}
         </div>
       </div>
       <div className="max-w-7xl mx-auto min-h-[600px]">

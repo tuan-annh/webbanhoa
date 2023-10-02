@@ -21,12 +21,42 @@ export const CartSlice = createSlice({
         toast.success("Thêm giỏ hàng thành công");
       }
     },
-    editCart: () => {},
-    removeCart: () => {},
+    editCart: (state, action) => {
+      const findCheck = state.find(
+        (item) => item.data.id === action.payload.id
+      );
+      findCheck.count += action.payload.quantity;
+    },
+    removeCart: (state, action) => {
+      state.splice(action.payload, 1);
+    },
+    removeCartById: (state, action) => {
+      return [...state].filter((item) => item.data.id !== action.payload);
+    },
+    checkedCart: (state, action) => {
+      state[action.payload].checked = !state[action.payload].checked;
+    },
+    checkedAll: (state) => {
+      const allChecked = state.every((item) => item.checked);
+      state.forEach((item) => {
+        item.checked = !allChecked;
+      });
+    },
+    paymentCart: (state) => {
+      return [...state].filter((item) => !item.checked);
+    },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { addCart, editCart, removeCart } = CartSlice.actions;
+export const {
+  addCart,
+  editCart,
+  removeCart,
+  checkedCart,
+  checkedAll,
+  removeCartById,
+  paymentCart,
+} = CartSlice.actions;
 
 export default CartSlice;

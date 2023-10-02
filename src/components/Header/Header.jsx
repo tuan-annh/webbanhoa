@@ -23,12 +23,15 @@ export default function Header() {
   const cart = useSelector((state) => state.cart);
   const [isSticky, setIsSticky] = useState(false);
   const [showModalMenu, setshowModalMenu] = useState(false);
+  const isAuthenticated = useSelector((state) => state.account.isAuthenticated);
+  const navigate = useNavigate();
+
   const countCart =
     cart &&
     cart.reduce((total, currentValue) => {
       return total + currentValue.count;
     }, 0);
-  const navigate = useNavigate();
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset > 100) {
@@ -76,7 +79,7 @@ export default function Header() {
           <img src={logoHeader} alt="" className="w-3/4" />
         </div>
 
-        <div className="flex basis-1/3 gap-2 justify-end">
+        <div className="flex basis-1/3 gap-2 justify-end mt-16 sm:mt-0">
           <div className="relative">
             <input
               type="text"
@@ -89,7 +92,7 @@ export default function Header() {
           </div>
 
           <div
-            className="w-10 h-10 bg-[#ed6b87] rounded hidden sm:flex justify-center items-center relative cursor-pointer"
+            className="w-10 h-10 bg-red-500 rounded hidden sm:flex justify-center items-center relative cursor-pointer hover:bg-red-700"
             onClick={() => navigate(path.cart)}
           >
             <div className="text-white ">
@@ -149,18 +152,16 @@ export default function Header() {
         </div>
         <div
           className="w-10 h-10 flex justify-center items-center cursor-pointer hover:text-red-500"
-          onClick={() => navigate(path.login)}
+          onClick={() => navigate(!isAuthenticated ? path.login : path.profile)}
         >
           <FontAwesomeIcon icon={faUser} />
         </div>
       </div>
 
-      {/* {showModalMenu && ( */}
       <ModalMenu
         showModalMenu={showModalMenu}
         setshowModalMenu={setshowModalMenu}
       />
-      {/* )} */}
     </div>
   );
 }

@@ -13,4 +13,8 @@ export const userApi = {
     const url = "/users";
     return axiosClient.get(url);
   },
+  PostCart: (data) => {
+    const url = "/carts";
+    return axiosClient.post(url, data);
+  },
 };

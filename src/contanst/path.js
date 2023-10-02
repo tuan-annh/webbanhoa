@@ -4,4 +4,5 @@ export const path = {
   register: "/dangky",
   cart: "/giohang",
   payment: "/thanhtoan",
+  profile: "/thongtincanhan",
 };

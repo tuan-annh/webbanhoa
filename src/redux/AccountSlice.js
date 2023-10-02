@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { toast } from "react-toastify";
 
 const initialState = {
   isAuthenticated: false,
@@ -12,7 +13,11 @@ export const AccountSlice = createSlice({
       state.isAuthenticated = true;
     },
     Logout: (state) => {
-      state.isAuthenticated = true;
+      if (window.confirm("Bạn có muốn đăng xuất khỏi tài khoản này không ?")) {
+        state.isAuthenticated = false;
+        localStorage.removeItem("user");
+        toast.success("Tài khoản đã được đăng xuất");
+      }
     },
   },
 });

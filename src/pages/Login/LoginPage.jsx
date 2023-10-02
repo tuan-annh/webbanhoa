@@ -4,13 +4,38 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { path } from "../../contanst/path";
 import { useForm } from "react-hook-form";
+import { userApi } from "../../service/userApi";
+import { toast } from "react-toastify";
+import { useDispatch } from "react-redux";
+import { Login } from "../../redux/AccountSlice";
 
 export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false);
   const { register, handleSubmit } = useForm();
+  const dispatch = useDispatch();
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async (data) => {
+    if (!data) {
+      toast.info("vui long nhap thong tin");
+      return;
+    }
+    try {
+      const res = await userApi.LoginUserApi({ ...data });
+      if (res.status === 200) {
+        toast.success("Đăng nhập thành công");
+        dispatch(Login());
+        localStorage.setItem(
+          "user",
+          JSON.stringify({
+            account: data.username,
+            token: res.data.token,
+          })
+        );
+      }
+    } catch (error) {
+      console.log(error);
+      toast.warning("Đăng nhập thất bại");
+    }
   };
 
   return (

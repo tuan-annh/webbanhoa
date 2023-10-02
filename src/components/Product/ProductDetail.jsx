@@ -76,14 +76,14 @@ export default function ProductDetails() {
 
   return (
     <div className="my-5 flex flex-col gap-10">
-      <div className="grid grid-cols-2 gap-14">
+      <div className="mx-4 sm:mx-0 grid grid-cols-1 sm:grid-cols-2 gap-14">
         <img
           src={categoryItem.url_img}
           alt=""
-          className="w-full rounded-md cursor-pointer object-cover"
+          className="mx-auto sm:w-full rounded-md cursor-pointer object-cover"
         />
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center sm:items-start">
           <span className="text-3xl pb-2 border-b border-slate-300 capitalize">
             {categoryItem.product_name}
           </span>
@@ -156,7 +156,7 @@ export default function ProductDetails() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 mx-2">
         <span className="text-2xl underline underline-offset-4 capitalize">
           {categoryItem.detail_product.title}
         </span>
