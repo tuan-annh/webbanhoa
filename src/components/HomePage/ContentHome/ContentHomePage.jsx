@@ -1,6 +1,6 @@
 export default function ContentHomePage() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-justify mx-2 sm:my-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8  text-justify mx-2 sm:my-2">
       <span className="sm:col-span-2 text-center font-semibold text-2xl">
         Shop Hoa Tươi FlowerCorner.vn
       </span>
@@ -10,16 +10,16 @@ export default function ContentHomePage() {
           Giới Thiệu Về FlowerCorner.vn
         </span>
         <span className="text-black/80">
-          <b>shop hoa tươi</b> FlowerCorner.vn là một trong những tiệm hoa tươi
-          uy tín nhất tại TP HCM, Việt Nam. FlowerCorner.vn cung cấp dịch vụ đặt
-          hoa online giao tận nơi tại TP HCM, Hà Nội và trên tất cả các tỉnh –
-          thành phố tại Việt Nam. Với hệ thống cửa hàng hoa tươi liên kết rộng
-          khắp tất cả các tỉnh – thành phố trên toàn quốc, FlowerCorner.vn có
-          thể giúp bạn gửi tặng hoa tươi cho người thân ở bất cứ nơi đâu tại
-          Việt Nam. FlowerCorner cam kết mang đến cho bạn những sản phẩm hoa
-          tươi chất lượng cao, với mức giá tốt nhất và dịch chuyên nghiệp nhất
-          khi sử dụng dịch vụ đặt hoa tươi online giao tận nơi tại
-          Flowercorner.vn.
+          <b className="capitalize">shop hoa tươi</b> FlowerCorner.vn là một
+          trong những tiệm hoa tươi uy tín nhất tại TP HCM, Việt Nam.
+          FlowerCorner.vn cung cấp dịch vụ đặt hoa online giao tận nơi tại TP
+          HCM, Hà Nội và trên tất cả các tỉnh – thành phố tại Việt Nam. Với hệ
+          thống cửa hàng hoa tươi liên kết rộng khắp tất cả các tỉnh – thành phố
+          trên toàn quốc, FlowerCorner.vn có thể giúp bạn gửi tặng hoa tươi cho
+          người thân ở bất cứ nơi đâu tại Việt Nam. FlowerCorner cam kết mang
+          đến cho bạn những sản phẩm hoa tươi chất lượng cao, với mức giá tốt
+          nhất và dịch chuyên nghiệp nhất khi sử dụng dịch vụ đặt hoa tươi
+          online giao tận nơi tại Flowercorner.vn.
         </span>
 
         <span className="font-semibold text-2xl">
@@ -27,7 +27,7 @@ export default function ContentHomePage() {
         </span>
         <span>
           <img
-            src="https://8384f55340.vws.vegacdn.vn/image/catalog/New_Dec/dat-hoa-online-tai-shop-hoa-tuoi-flowercorner.jpg"
+            src="../src/images/dat-hoa-online-tai-shop-hoa-tuoi-flowercorner.jpg"
             alt=""
           />
         </span>

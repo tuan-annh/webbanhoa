@@ -52,24 +52,42 @@ export default function Header() {
     <div>
       <div className="flex-col gap-3 sm:flex-row flex items-center my-5 mx-3">
         <div className="sm:flex gap-3 basis-1/3 justify-center hidden">
-          <FontAwesomeIcon
-            icon={faFacebook}
-            size="2xl"
-            style={{ color: "#2c58a5" }}
-            className="cursor-pointer"
-          />
-          <FontAwesomeIcon
-            icon={faTwitter}
-            size="2xl"
-            style={{ color: "#1e5ac2" }}
-            className="cursor-pointer"
-          />
-          <FontAwesomeIcon
-            icon={faInstagram}
-            size="2xl"
-            style={{ color: "#c3377b" }}
-            className="cursor-pointer"
-          />
+          <a
+            href="https://www.facebook.com/profile.php?id=100009244548897"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faFacebook}
+              size="2xl"
+              style={{ color: "#2c58a5" }}
+              className="cursor-pointer"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100009244548897"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faTwitter}
+              size="2xl"
+              style={{ color: "#1e5ac2" }}
+              className="cursor-pointer"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100009244548897"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="2xl"
+              style={{ color: "#c3377b" }}
+              className="cursor-pointer"
+            />
+          </a>
         </div>
 
         <div
@@ -158,10 +176,7 @@ export default function Header() {
         </div>
       </div>
 
-      <ModalMenu
-        showModalMenu={showModalMenu}
-        setshowModalMenu={setshowModalMenu}
-      />
+      {showModalMenu && <ModalMenu setshowModalMenu={setshowModalMenu} />}
     </div>
   );
 }

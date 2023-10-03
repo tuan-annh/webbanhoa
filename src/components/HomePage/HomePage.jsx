@@ -26,7 +26,7 @@ export default function HomePage() {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper -z-[1]"
+          className="mySwiper"
         >
           {imgSlider &&
             imgSlider.map((item, index) => (

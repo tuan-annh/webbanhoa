@@ -44,7 +44,12 @@ export default function ProductHomePage() {
                       />
 
                       <div className="flex flex-col my-2 gap-1 justify-center items-center">
-                        <span className="font-semibold line-clamp-1 capitalize">
+                        <span
+                          className="font-semibold line-clamp-1 capitalize cursor-pointer hover:text-red-500"
+                          onClick={() =>
+                            navigate(`/${itemCate.url}/${item.id}`)
+                          }
+                        >
                           {item.product_name}
                         </span>
                         <span className="text-red-500 font-medium">
@@ -54,7 +59,7 @@ export default function ProductHomePage() {
                           className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "
                           onClick={() => handleAddCart(item)}
                         >
-                          đặt hàng
+                          thêm giỏ hàng
                         </button>
                       </div>
                     </div>

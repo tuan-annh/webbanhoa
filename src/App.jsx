@@ -19,6 +19,8 @@ import ShoppingCartPage from "./pages/ShoppingCartPage/ShoppingCartPage";
 import PaymentPage from "./pages/PayMentPage/PaymentPage";
 import { Login } from "./redux/AccountSlice";
 import ProfilePage from "./pages/ProfilePage/Profile";
+import Thanks from "./pages/Thanks/Thank";
+import CustomerService from "./pages/CustomerService/CustomerService";
 
 function App() {
   const dispatch = useDispatch();
@@ -62,10 +64,26 @@ function App() {
           ),
         },
         {
+          path: `${path.customerservice}/:urldata`,
+          element: (
+            <MainLayout>
+              <CustomerService />
+            </MainLayout>
+          ),
+        },
+        {
           path: path.cart,
           element: (
             <MainLayout>
               <ShoppingCartPage />
+            </MainLayout>
+          ),
+        },
+        {
+          path: path.booknow,
+          element: (
+            <MainLayout>
+              <Thanks />
             </MainLayout>
           ),
         },
@@ -77,6 +95,7 @@ function App() {
             </MainLayout>
           ),
         },
+
         {
           path: path.profile,
           element: isAuthenticated ? (

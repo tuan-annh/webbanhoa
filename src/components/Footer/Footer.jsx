@@ -8,11 +8,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
+import { useNavigate } from "react-router-dom";
+import { path } from "../../contanst/path";
 
 export default function Footer() {
   const footerJsonData = useSelector((state) => state.json.footer);
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
+  const navigate = useNavigate();
   return (
     <footer>
       <div className="flex flex-col gap-2 sm:gap-0 mx-2 sm:mx-auto sm:flex-row mb-14 mt-8">
@@ -28,10 +31,16 @@ export default function Footer() {
           <span>
             {footerJsonData.fl &&
               footerJsonData.fl.content.map((item, index) => (
-                <i
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009244548897"
                   key={index}
-                  className={`${item.icon} w-8 cursor-pointer hover:text-red-500`}
-                />
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i
+                    className={`${item.icon} w-8 cursor-pointer hover:text-red-500`}
+                  />
+                </a>
               ))}
           </span>
         </div>
@@ -50,10 +59,16 @@ export default function Footer() {
             footerJsonData.list_header_left.map((item, index) => (
               <span
                 key={index}
-                className={clsx("opacity-80 sm:block", {
-                  hidden: !show1,
-                  block: show1,
-                })}
+                className={clsx(
+                  "opacity-80 sm:block cursor-pointer hover:text-red-600",
+                  {
+                    hidden: !show1,
+                    block: show1,
+                  }
+                )}
+                onClick={() => {
+                  navigate(`${path.customerservice}/${item.url}`);
+                }}
               >
                 {item.title}
               </span>
@@ -92,7 +107,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 bg-[#e91e63] p-1 sm:p-3">
+      <div className="fixed bottom-0 left-0 right-0 bg-[#e91e63] p-1 sm:p-3 z-10">
         <div className="flex justify-center text-white">
           <div className="flex gap-2 justify-center items-center pr-3 sm:pr-10 cursor-pointer border-r">
             <FontAwesomeIcon icon={faPhoneVolume} />
