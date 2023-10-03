@@ -45,6 +45,9 @@ export const CartSlice = createSlice({
     paymentCart: (state) => {
       return [...state].filter((item) => !item.checked);
     },
+    countCart: (state, action) => {
+      state[action.payload.index].count = action.payload.numbercount;
+    },
   },
 });
 
@@ -57,6 +60,7 @@ export const {
   checkedAll,
   removeCartById,
   paymentCart,
+  countCart,
 } = CartSlice.actions;
 
 export default CartSlice;

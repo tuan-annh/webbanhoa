@@ -17,4 +17,8 @@ export const userApi = {
     const url = "/carts";
     return axiosClient.post(url, data);
   },
+  updateUser: (id, data) => {
+    const url = `/users/${id}`;
+    return axiosClient.put(url, data);
+  },
 };
