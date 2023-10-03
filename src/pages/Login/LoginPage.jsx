@@ -58,6 +58,7 @@ export default function LoginPage() {
             className="p-2 border rounded"
             required
             {...register("username")}
+            defaultValue="johnd"
           />
         </div>
         <div className="flex flex-col gap-1 relative">
@@ -70,6 +71,7 @@ export default function LoginPage() {
             className="p-2 border rounded"
             required
             {...register("password")}
+            defaultValue="m38rmF$"
           />
           <span
             className="absolute right-3  bottom-2 cursor-pointer"
