@@ -23,7 +23,9 @@ export default function LoginPage() {
       const res = await userApi.LoginUserApi({ ...data });
       if (res.status === 200) {
         toast.success("Đăng nhập thành công");
-        dispatch(Login());
+        setTimeout(() => {
+          dispatch(Login());
+        }, 1000);
         localStorage.setItem(
           "user",
           JSON.stringify({

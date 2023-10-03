@@ -5,4 +5,6 @@ export const path = {
   cart: "/giohang",
   payment: "/thanhtoan",
   profile: "/thongtincanhan",
+  booknow: "/datngay",
+  customerservice: "/chamsockhachhang",
 };

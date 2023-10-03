@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import getRandomValuesFromArray from "../../contanst/randomList";
 import { addCart } from "../../redux/CartSlice";
 import { useEffect, useState } from "react";
+import ModalBuyCart from "../Modal/ModalBuyCart";
 
 export default function ProductDetails() {
   const { url, id } = useParams();
@@ -10,6 +10,7 @@ export default function ProductDetails() {
   const dispatch = useDispatch();
   const [count, setCount] = useState(1);
   const categoryList = useSelector((state) => state.json.content.product);
+  const [showModal, setshowModal] = useState(false);
   const spttUrl = useSelector((state) => state.json.content.category);
   const idSpttUrl = spttUrl && spttUrl.find((item) => item.url === url);
   const listSpttUrl =
@@ -20,6 +21,7 @@ export default function ProductDetails() {
   const handleIncrease = () => {
     setCount(count + 1);
   };
+
   const handleReduce = () => {
     if (count === 1) {
       return;
@@ -44,6 +46,7 @@ export default function ProductDetails() {
       })
     );
   };
+
   useEffect(() => {
     setCount(1);
   }, [urlLink]);
@@ -133,7 +136,10 @@ export default function ProductDetails() {
             >
               Thêm giỏ hàng
             </button>
-            <button className="bg-red-400 py-2 px-5 rounded-lg text-white hover:outline hover:outline-2 hover:outline-slate-300 hover:outline-offset-2">
+            <button
+              className="bg-red-400 py-2 px-5 rounded-lg text-white hover:outline hover:outline-2 hover:outline-slate-300 hover:outline-offset-2"
+              onClick={() => setshowModal(!showModal)}
+            >
               Đặt ngay
             </button>
           </div>
@@ -170,32 +176,39 @@ export default function ProductDetails() {
           Sản phẩm liên quan
         </span>
         <div className="grid  grid-cols-4 gap-5">
-          {getRandomValuesFromArray(listSpttUrl, 4).map((item) => (
-            <div key={item.id}>
-              <img
-                src={item.url_img}
-                alt=""
-                className="w-full object-cover cursor-pointer shadow scale-95 duration-500 ease-in-out hover:scale-100 rounded"
-                onClick={() => navigate(`/${url}/${item.id}`)}
-              />
-              <div className="flex flex-col my-2 gap-1 justify-center items-center">
-                <span className="font-semibold line-clamp-1">
-                  {item.product_name}
-                </span>
-                <span className="text-red-500 font-medium">
-                  {item.price.toLocaleString()} VND
-                </span>
-                <button
-                  className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "
-                  onClick={() => handleAddCartSPLQ(item)}
-                >
-                  đặt hàng
-                </button>
-              </div>
-            </div>
-          ))}
+          {listSpttUrl &&
+            listSpttUrl
+              .filter((item) => item.id !== categoryItem.id)
+              .slice(0, 4)
+              .map((item) => (
+                <div key={item.id}>
+                  <img
+                    src={item.url_img}
+                    alt=""
+                    className="w-full object-cover cursor-pointer shadow scale-95 duration-500 ease-in-out hover:scale-100 rounded"
+                    onClick={() => navigate(`/${url}/${item.id}`)}
+                  />
+                  <div className="flex flex-col my-2 gap-1 justify-center items-center">
+                    <span className="font-semibold line-clamp-1">
+                      {item.product_name}
+                    </span>
+                    <span className="text-red-500 font-medium">
+                      {item.price.toLocaleString()} VND
+                    </span>
+                    <button
+                      className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "
+                      onClick={() => handleAddCartSPLQ(item)}
+                    >
+                      thêm giỏ hàng
+                    </button>
+                  </div>
+                </div>
+              ))}
         </div>
       </div>
+      {showModal && (
+        <ModalBuyCart setshowModal={setshowModal} categoryItem={categoryItem} />
+      )}
     </div>
   );
 }

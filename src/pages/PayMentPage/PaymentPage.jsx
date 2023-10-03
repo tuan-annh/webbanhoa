@@ -42,7 +42,7 @@ export default function PaymentPage() {
   };
 
   if (checkDataPayment.length === 0) {
-    return <Navigate to={path.home} />;
+    return <Navigate to={path.cart} />;
   }
 
   return (

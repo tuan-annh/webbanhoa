@@ -81,7 +81,7 @@ export default function ProductList() {
                 className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "
                 onClick={() => handleAddCart(item)}
               >
-                đặt hàng
+                thêm giỏ hàng
               </button>
             </div>
           </div>
