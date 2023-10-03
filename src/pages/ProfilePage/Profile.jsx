@@ -80,7 +80,7 @@ export default function ProfilePage() {
     );
   }
   return (
-    <div className="w-[650px] mx-auto my-10">
+    <div className="md:w-[650px] mx-3 md:mx-auto my-10">
       <span className="flex justify-center text-2xl">Thông tin cá nhân</span>
       <form
         action=""
