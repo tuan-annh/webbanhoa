@@ -44,7 +44,7 @@ function ModalSearch({ setshowModalSearch }) {
       <div className="h-full pt-10">
         <div
           className={clsx(
-            "h-[90%] w-[700px] mx-auto  duration-1000 bg-white ease-in-out p-4 rounded-md",
+            "h-[90%] md:w-[700px] mx-4 md:mx-auto  duration-1000 bg-white ease-in-out p-4 rounded-md",
             {
               "opacity-100 scale-100": animate,
               "opacity-100 scale-0": !animate,
