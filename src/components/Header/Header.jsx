@@ -99,11 +99,8 @@ export default function Header() {
           <img src={logoHeader} alt="" className="w-3/4" />
         </div>
 
-        <div
-          className="flex basis-1/3 gap-2 justify-end mt-16 sm:mt-0"
-          onClick={() => setshowModalSearch(true)}
-        >
-          <div className="relative">
+        <div className="flex basis-1/3 gap-2 justify-end mt-16 sm:mt-0">
+          <div className="relative" onClick={() => setshowModalSearch(true)}>
             <input
               disabled
               type="text"
