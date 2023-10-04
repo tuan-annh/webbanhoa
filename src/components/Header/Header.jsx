@@ -16,6 +16,7 @@ import { path } from "../../contanst/path";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import ModalMenu from "../Modal/ModalMenu";
+import ModalSearch from "../Modal/ModalSearch";
 
 export default function Header() {
   const logoHeader = useSelector((state) => state.json.header.logo_shop);
@@ -23,6 +24,7 @@ export default function Header() {
   const cart = useSelector((state) => state.cart);
   const [isSticky, setIsSticky] = useState(false);
   const [showModalMenu, setshowModalMenu] = useState(false);
+  const [showModalSearch, setshowModalSearch] = useState(false);
   const isAuthenticated = useSelector((state) => state.account.isAuthenticated);
   const navigate = useNavigate();
 
@@ -97,11 +99,15 @@ export default function Header() {
           <img src={logoHeader} alt="" className="w-3/4" />
         </div>
 
-        <div className="flex basis-1/3 gap-2 justify-end mt-16 sm:mt-0">
+        <div
+          className="flex basis-1/3 gap-2 justify-end mt-16 sm:mt-0"
+          onClick={() => setshowModalSearch(true)}
+        >
           <div className="relative">
             <input
+              disabled
               type="text"
-              className="w-[400px] sm:w-full border p-2 rounded"
+              className="w-[400px] sm:w-full border p-2 rounded cursor-pointer"
               placeholder="Tìm kiếm"
             />
             <span className="absolute right-[3%] top-[50%] -translate-y-1/2 cursor-pointer">
@@ -177,6 +183,9 @@ export default function Header() {
       </div>
 
       {showModalMenu && <ModalMenu setshowModalMenu={setshowModalMenu} />}
+      {showModalSearch && (
+        <ModalSearch setshowModalSearch={setshowModalSearch} />
+      )}
     </div>
   );
 }
