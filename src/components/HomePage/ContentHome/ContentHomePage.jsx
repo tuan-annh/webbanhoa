@@ -27,7 +27,7 @@ export default function ContentHomePage() {
         </span>
         <span>
           <img
-            src="../src/images/dat-hoa-online-tai-shop-hoa-tuoi-flowercorner.jpg"
+            src="https://8384f55340.vws.vegacdn.vn/image/catalog/New_Dec/dat-hoa-online-tai-shop-hoa-tuoi-flowercorner.jpg"
             alt=""
           />
         </span>

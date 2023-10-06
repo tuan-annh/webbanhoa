@@ -80,11 +80,13 @@ export default function ProductDetails() {
   return (
     <div className="my-5 flex flex-col gap-10">
       <div className="mx-4 sm:mx-0 grid grid-cols-1 sm:grid-cols-2 gap-14">
-        <img
-          src={categoryItem.url_img}
-          alt=""
-          className="mx-auto sm:w-full rounded-md cursor-pointer object-cover"
-        />
+        <div className="w-full p-2 border rounded-lg ">
+          <img
+            src={categoryItem.url_img}
+            alt={categoryItem.product_name}
+            className="mx-auto sm:w-full cursor-pointer object-cover"
+          />
+        </div>
 
         <div className="flex flex-col gap-4 items-center sm:items-start">
           <span className="text-3xl pb-2 border-b border-slate-300 capitalize">
@@ -147,13 +149,17 @@ export default function ProductDetails() {
             <div className="flex gap-2 items-center">
               <img
                 className="w-16"
-                src="../src/images/giaohang60p.png"
+                src="https://www.flowercorner.vn/image/icon/60mins.png"
                 alt=""
               />
               <span className="opacity-80">Giao hoa NHANH trong 60 phút</span>
             </div>
             <div className="flex gap-2 items-center">
-              <img className="w-16" src="../src/images/tim.png" alt="" />
+              <img
+                className="w-16"
+                src="https://www.flowercorner.vn/image/icon/freegifts.png"
+                alt=""
+              />
               <span className="opacity-80">
                 Tặng miễn phí thiệp hoặc banner
               </span>

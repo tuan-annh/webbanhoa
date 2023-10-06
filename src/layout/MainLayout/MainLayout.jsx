@@ -40,8 +40,8 @@ function MainLayout({ children }) {
   window.addEventListener("scroll", handleScroll);
   return (
     <div>
-      <div className="border-b-2 hidden sm:block">
-        <div className="flex max-w-7xl md:mx-auto justify-between my-2 opacity-80 mx-5">
+      <div className="border-b hidden sm:block">
+        <div className="flex max-w-6xl md:mx-auto justify-between my-2 opacity-80 mx-5">
           <div>
             <span>HOTLINE: 1900 633 045 | 0865 160 360</span>
           </div>
@@ -74,12 +74,12 @@ function MainLayout({ children }) {
           )}
         </div>
       </div>
-      <div className="max-w-7xl mx-auto min-h-[600px]">
+      <div className="max-w-6xl mx-auto min-h-[600px]">
         <Header />
         {children}
       </div>
-      <div className="border-t-2">
-        <div className="max-w-7xl mx-auto ">
+      <div className="border-t">
+        <div className="max-w-6xl mx-auto ">
           <Footer />
         </div>
       </div>

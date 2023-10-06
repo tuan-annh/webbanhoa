@@ -127,7 +127,7 @@ export default function Header() {
       </div>
 
       <div
-        className={clsx("sm:border-b-2 pb-3 z-40", {
+        className={clsx("sm:border-b pb-3 z-40", {
           fixed: isSticky,
           "sm:top-0": isSticky,
           "sm:left-0": isSticky,
@@ -136,7 +136,7 @@ export default function Header() {
           "sm:bg-white": isSticky,
         })}
       >
-        <div className="mx-auto max-w-7xl flex justify-evenly items-center">
+        <div className="mx-auto max-w-6xl flex justify-evenly items-center">
           {buttonHeader &&
             buttonHeader.map((item, index) => (
               <NavLink
