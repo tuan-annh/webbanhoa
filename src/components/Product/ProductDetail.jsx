@@ -3,6 +3,7 @@ import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { addCart } from "../../redux/CartSlice";
 import { useEffect, useState } from "react";
 import ModalBuyCart from "../Modal/ModalBuyCart";
+import ModalDetailImg from "../Modal/ModalDetailImg";
 
 export default function ProductDetails() {
   const { url, id } = useParams();
@@ -11,6 +12,7 @@ export default function ProductDetails() {
   const [count, setCount] = useState(1);
   const categoryList = useSelector((state) => state.json.content.product);
   const [showModal, setshowModal] = useState(false);
+  const [showModalImg, setshowModalImg] = useState(false);
   const spttUrl = useSelector((state) => state.json.content.category);
   const idSpttUrl = spttUrl && spttUrl.find((item) => item.url === url);
   const listSpttUrl =
@@ -85,6 +87,7 @@ export default function ProductDetails() {
             src={categoryItem.url_img}
             alt={categoryItem.product_name}
             className="mx-auto sm:w-full cursor-pointer object-cover"
+            onClick={() => setshowModalImg(true)}
           />
         </div>
 
@@ -214,6 +217,12 @@ export default function ProductDetails() {
       </div>
       {showModal && (
         <ModalBuyCart setshowModal={setshowModal} categoryItem={categoryItem} />
+      )}
+      {showModalImg && (
+        <ModalDetailImg
+          setshowModalImg={setshowModalImg}
+          categoryItem={categoryItem}
+        />
       )}
     </div>
   );

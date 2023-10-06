@@ -57,10 +57,10 @@ export default function ShoppingCartPage() {
 
   if (dataShoppingCart.length === 0) {
     return (
-      <div className="flex flex-col items-center my-5">
+      <div className="flex flex-col items-center my-5 gap-10">
         <img
-          src="src/images/giohangtrong.jpg"
-          alt=""
+          src="https://bambo.vn/assets/images/no-cart.png"
+          alt="Giỏ hàng trống"
           className="w-2/3 md:w-auto"
         />
         <NavLink

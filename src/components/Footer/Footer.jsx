@@ -111,11 +111,13 @@ export default function Footer() {
         <div className="flex justify-center text-white">
           <div className="flex gap-2 justify-center items-center pr-3 sm:pr-10 cursor-pointer border-r">
             <FontAwesomeIcon icon={faPhoneVolume} />
-            <span>Gọi ngay 1900 633 045</span>
+            <span className="hidden md:block">Gọi ngay 1900 633 045</span>
+            <span className=" md:hidden">Hỗ trợ</span>
           </div>
           <div className="flex gap-2 justify-center items-center px-3 sm:px-10 cursor-pointer border-r">
             <FontAwesomeIcon icon={faZ} />
-            <span>Nhắn Tin Zalo</span>
+            <span className="hidden md:block">Nhắn Tin Zalo</span>
+            <span className=" md:hidden">Zalo</span>
           </div>
           <div className="flex gap-2 justify-center items-center pl-3 sm:pl-10 cursor-pointer">
             <FontAwesomeIcon icon={faFacebookMessenger} />
