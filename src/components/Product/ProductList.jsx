@@ -26,7 +26,13 @@ export default function ProductList() {
   };
   const productListFilterChange =
     productListById && productListById.splice((page - 1) * 8, 8);
-  useEffect(() => setPage(1), [urlLink.pathname]);
+
+  console.log(selectSort, urlLink.pathname);
+  useEffect(() => {
+    setPage(1);
+    setSelectSort("default");
+  }, [urlLink.pathname]);
+
   const handleAddCart = (item) => {
     dispatch(
       addCart({
@@ -71,6 +77,7 @@ export default function ProductList() {
         </label>
         <select
           name={selectSort}
+          value={selectSort}
           id="sort"
           className="p-2 rounded-r-md border-l border-black/50"
           onChange={(e) => setSelectSort(e.target.value)}
