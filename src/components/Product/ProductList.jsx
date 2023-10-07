@@ -27,7 +27,6 @@ export default function ProductList() {
   const productListFilterChange =
     productListById && productListById.splice((page - 1) * 8, 8);
 
-  console.log(selectSort, urlLink.pathname);
   useEffect(() => {
     setPage(1);
     setSelectSort("default");
