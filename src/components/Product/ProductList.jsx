@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { addCart } from "../../redux/CartSlice";
+import { sortFilterProduct } from "./SortProduct";
 
 export default function ProductList() {
   const dispatch = useDispatch();
@@ -10,6 +11,7 @@ export default function ProductList() {
   const navigate = useNavigate();
   const urlLink = useLocation();
   const [page, setPage] = useState(1);
+  const [selectSort, setSelectSort] = useState("default");
   const categoryList = useSelector((state) => state.json.content.category);
   const productList = useSelector((state) => state.json.content.product);
   const categoryId =
@@ -22,6 +24,8 @@ export default function ProductList() {
     setPage(value);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  const productListFilterChange =
+    productListById && productListById.splice((page - 1) * 8, 8);
   useEffect(() => setPage(1), [urlLink.pathname]);
   const handleAddCart = (item) => {
     dispatch(
@@ -61,8 +65,25 @@ export default function ProductList() {
 
   return (
     <div className="flex flex-col items-center gap-5 my-5">
+      <div className="border border-black/50 rounded-md   ">
+        <label htmlFor="sort" className=" p-2 bg-slate-300 rounded-l-md h-full">
+          Sắp xếp theo
+        </label>
+        <select
+          name={selectSort}
+          id="sort"
+          className="p-2 rounded-r-md border-l border-black/50"
+          onChange={(e) => setSelectSort(e.target.value)}
+        >
+          <option value="default">Mặc đinh</option>
+          <option value="name_asc">Tên (A-Z)</option>
+          <option value="name_desc">Tên (Z-A)</option>
+          <option value="price_asc">Giá (Thấp &gt; Cao)</option>
+          <option value="price_desc">Giá (Cao &gt; Thấp)</option>
+        </select>
+      </div>
       <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-2">
-        {productListById.splice((page - 1) * 8, 8).map((item) => (
+        {sortFilterProduct[selectSort](productListFilterChange).map((item) => (
           <div key={item.id}>
             <img
               src={item.url_img}
