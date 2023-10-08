@@ -19,28 +19,30 @@ export default function ModalDetailImg({ setshowModalImg, categoryItem }) {
         setAnimate(false);
       }}
     >
-      <div className="" onClick={(e) => e.stopPropagation()}>
+      <div
+        className={clsx(
+          "cursor-pointer absolute top-5 right-5 md:w-12 w-10 h-10 md:h-12 flex justify-center items-center rotate-0 hover:rotate-180 bg-white rounded-full duration-700 ease-in-out",
+          {
+            "scale-0 opacity-0": !animate,
+            "scale-100 opacity-100": animate,
+          }
+        )}
+        onClick={() => {
+          setTimeout(() => {
+            setshowModalImg(false);
+          }, 500);
+          setAnimate(false);
+        }}
+      >
+        <FontAwesomeIcon icon={faX} size="xl" />
+      </div>
+      <div onClick={(e) => e.stopPropagation()}>
         <div
           className={clsx("duration-700 ease-in-out mx-5", {
             "scale-0 opacity-0": !animate,
             "scale-100 opacity-100": animate,
           })}
         >
-          <div
-            className="flex justify-end mb-2"
-            onClick={() => {
-              setTimeout(() => {
-                setshowModalImg(false);
-              }, 500);
-              setAnimate(false);
-            }}
-          >
-            <FontAwesomeIcon
-              icon={faX}
-              size="xl"
-              className="text-white/70 hover:text-white/100 cursor-pointer rotate-0 duration-700 ease-in-out hover:rotate-180"
-            />
-          </div>
           <img
             src={categoryItem.url_img}
             className="w-[500px] object-contain rounded"
