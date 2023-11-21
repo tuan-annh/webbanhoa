@@ -1,59 +1,60 @@
-import { useDispatch, useSelector } from "react-redux";
-import { NavLink, useNavigate } from "react-router-dom";
-import { path } from "../../contanst/path";
+import { useDispatch, useSelector } from "react-redux"
+import { NavLink, useNavigate } from "react-router-dom"
+import { path } from "../../contanst/path"
 import {
   checkedAll,
   checkedCart,
   editCart,
   removeCart,
-} from "../../redux/CartSlice";
-import { toast } from "react-toastify";
-import clsx from "clsx";
+} from "../../redux/CartSlice"
+import { toast } from "react-toastify"
+import clsx from "clsx"
+import formatCurrencyVND from "../../contanst/formatPrice"
 
 export default function ShoppingCartPage() {
-  const dataShoppingCart = useSelector((state) => state.cart);
-  const category = useSelector((state) => state.json.content.category);
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
+  const dataShoppingCart = useSelector((state) => state.cart)
+  const category = useSelector((state) => state.json.content.category)
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
   const checkDataPayment =
-    dataShoppingCart && dataShoppingCart.filter((item) => item.checked);
+    dataShoppingCart && dataShoppingCart.filter((item) => item.checked)
 
   const handleReduce = (item, index) => {
     if (item.count > 1) {
-      dispatch(editCart({ id: item.data.id, quantity: -1 }));
-      return;
+      dispatch(editCart({ id: item.data.id, quantity: -1 }))
+      return
     }
     if (window.confirm("Bạn có muốn xóa sản phẩm này khỏi giỏ hàng không?")) {
-      dispatch(removeCart(index));
-      toast.success("Xóa sản phẩm thành công !!!");
+      dispatch(removeCart(index))
+      toast.success("Xóa sản phẩm thành công !!!")
     }
-  };
+  }
 
   const handleIncrease = (item) => {
-    dispatch(editCart({ id: item.data.id, quantity: 1 }));
-  };
+    dispatch(editCart({ id: item.data.id, quantity: 1 }))
+  }
 
   const handleRemove = (index) => {
     if (window.confirm("Bạn có muốn xóa sản phẩm này khỏi giỏ hàng không?")) {
-      dispatch(removeCart(index));
-      toast.success("Xóa sản phẩm thành công !!!");
+      dispatch(removeCart(index))
+      toast.success("Xóa sản phẩm thành công !!!")
     }
-  };
+  }
 
   const handleChecked = (index) => {
-    dispatch(checkedCart(index));
-  };
+    dispatch(checkedCart(index))
+  }
 
   const handleAllCart = () => {
-    dispatch(checkedAll());
-  };
+    dispatch(checkedAll())
+  }
 
   const handleNextPage = (data) => {
     const url = category.find(
       (item) => item.category_id === data.data.category_id
-    ).url;
-    navigate(`/${url}/${data.data.id}`);
-  };
+    ).url
+    navigate(`/${url}/${data.data.id}`)
+  }
 
   if (dataShoppingCart.length === 0) {
     return (
@@ -70,7 +71,7 @@ export default function ShoppingCartPage() {
           Mua sắm ngay
         </NavLink>
       </div>
-    );
+    )
   }
 
   return (
@@ -119,7 +120,7 @@ export default function ShoppingCartPage() {
               </span>
             </div>
             <div className="whitespace-nowrap  md:px-6 px-2 py-1 md:py-4 flex justify-center items-center">
-              {item.data.price.toLocaleString()}
+              {formatCurrencyVND(item.data.price)}
             </div>
             <div className="whitespace-nowrap  md:px-6 px-2 py-1 md:py-4 h-full gap-1 md:gap-3 sm:gap-1 flex justify-center items-center">
               <span
@@ -137,7 +138,7 @@ export default function ShoppingCartPage() {
               </span>
             </div>
             <div className="whitespace-nowrap  md:px-6 px-2 py-1 md:py-4 flex justify-center items-center">
-              {(item.data.price * item.count).toLocaleString()}
+              {formatCurrencyVND(item.data.price * item.count)}
             </div>
             <div
               className="whitespace-nowrap  md:px-6 px-2 py-1 md:py-4 hover:text-red-500 cursor-pointer flex justify-center items-center"
@@ -154,11 +155,11 @@ export default function ShoppingCartPage() {
           Tổng cộng
         </div>
         <div className="whitespace-nowrap text-center  md:px-6 px-2 py-1 md:py-4 col-span-2">
-          {dataShoppingCart
-            .filter((item) => item.checked)
-            .reduce((acc, cur) => acc + cur.count * cur.data.price, 0)
-            .toLocaleString()}{" "}
-          VND
+          {formatCurrencyVND(
+            dataShoppingCart
+              .filter((item) => item.checked)
+              .reduce((acc, cur) => acc + cur.count * cur.data.price, 0)
+          )}
         </div>
       </div>
 
@@ -182,5 +183,5 @@ export default function ShoppingCartPage() {
         </button>
       </div>
     </div>
-  );
+  )
 }

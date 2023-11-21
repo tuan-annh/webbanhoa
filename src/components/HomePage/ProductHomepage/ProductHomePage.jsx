@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux"
 import { NavLink, useNavigate } from "react-router-dom"
 import { addCart } from "../../../redux/CartSlice"
+import formatCurrencyVND from "../../../contanst/formatPrice"
 
 export default function ProductHomePage() {
   const category = useSelector((state) => state.json.content.category)
@@ -23,7 +24,7 @@ export default function ProductHomePage() {
           <div key={itemCate.id}>
             <NavLink
               to={`/${itemCate.url}`}
-              className="flex justify-center text-3xl my-5 hover:text-red-500 scale-100 duration-500 ease-in-out hover:scale-110"
+              className="flex justify-center text-3xl my-5 hover:text-red-500 animate-bounce"
             >
               {itemCate.category_name}
             </NavLink>
@@ -53,7 +54,7 @@ export default function ProductHomePage() {
                           {item.product_name}
                         </span>
                         <span className="text-red-500 font-medium">
-                          {item.price.toLocaleString()} VND
+                          {formatCurrencyVND(item.price)}
                         </span>
                         <button
                           className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "

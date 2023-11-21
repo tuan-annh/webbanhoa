@@ -4,6 +4,7 @@ import { addCart } from "../../redux/CartSlice"
 import { useEffect, useState } from "react"
 import ModalBuyCart from "../Modal/ModalBuyCart"
 import ModalDetailImg from "../Modal/ModalDetailImg"
+import formatCurrencyVND from "../../contanst/formatPrice"
 
 export default function ProductDetails() {
   const { url, id } = useParams()
@@ -97,7 +98,7 @@ export default function ProductDetails() {
             {categoryItem.product_name}
           </span>
           <span className="text-red-500 text-2xl border-slate-300 pb-2 border-b">
-            {categoryItem.price.toLocaleString()} VND
+            {formatCurrencyVND(categoryItem.price)}
           </span>
           <div className="flex gap-2">
             <span className="font-medium">Khuyến mãi:</span>
@@ -203,7 +204,7 @@ export default function ProductDetails() {
                       {item.product_name}
                     </span>
                     <span className="text-red-500 font-medium">
-                      {item.price.toLocaleString()} VND
+                      {formatCurrencyVND(item.price)}
                     </span>
                     <button
                       className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "

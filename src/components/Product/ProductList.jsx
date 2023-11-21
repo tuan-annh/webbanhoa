@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { useLocation, useNavigate, useParams } from "react-router-dom"
 import { addCart } from "../../redux/CartSlice"
 import { sortFilterProduct } from "./SortProduct"
+import formatCurrencyVND from "../../contanst/formatPrice"
 
 export default function ProductList() {
   const dispatch = useDispatch()
@@ -101,7 +102,7 @@ export default function ProductList() {
                 {item.product_name}
               </span>
               <span className="text-red-500 font-medium">
-                {item.price.toLocaleString()} VND
+                {formatCurrencyVND(item.price)}
               </span>
               <button
                 className="bg-red-500 px-5 uppercase rounded-md text-white py-1 hover:bg-red-700 "

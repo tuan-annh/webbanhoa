@@ -1,48 +1,49 @@
-import { useForm } from "react-hook-form";
-import { useDispatch, useSelector } from "react-redux";
-import { Navigate } from "react-router-dom";
-import { path } from "../../contanst/path";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
-import clsx from "clsx";
-import { paymentCart, removeCartById } from "../../redux/CartSlice";
-import { toast } from "react-toastify";
-import { userApi } from "../../service/userApi";
-import getCurrentDateTime from "../../contanst/date";
+import { useForm } from "react-hook-form"
+import { useDispatch, useSelector } from "react-redux"
+import { Navigate } from "react-router-dom"
+import { path } from "../../contanst/path"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons"
+import { useState } from "react"
+import clsx from "clsx"
+import { paymentCart, removeCartById } from "../../redux/CartSlice"
+import { toast } from "react-toastify"
+import { userApi } from "../../service/userApi"
+import getCurrentDateTime from "../../contanst/date"
+import formatCurrencyVND from "../../contanst/formatPrice"
 
 export default function PaymentPage() {
-  const { register, handleSubmit } = useForm();
-  const dataShoppingCart = useSelector((state) => state.cart);
-  const [buy, setBuy] = useState(false);
-  const dispatch = useDispatch();
+  const { register, handleSubmit } = useForm()
+  const dataShoppingCart = useSelector((state) => state.cart)
+  const [buy, setBuy] = useState(false)
+  const dispatch = useDispatch()
 
   const onSubmit = () => {
-    setBuy(true);
-  };
+    setBuy(true)
+  }
 
   const checkDataPayment =
-    dataShoppingCart && dataShoppingCart.filter((item) => item.checked);
+    dataShoppingCart && dataShoppingCart.filter((item) => item.checked)
 
   const handleOrderCart = async () => {
     try {
       const res = await userApi.PostCart({
         date: getCurrentDateTime(),
         products: [...checkDataPayment].map((item) => {
-          return { productId: item.data.id, quantity: item.count };
+          return { productId: item.data.id, quantity: item.count }
         }),
-      });
+      })
       if (res.status) {
-        dispatch(paymentCart());
-        toast.success("Đặt hàng thành công");
+        dispatch(paymentCart())
+        toast.success("Đặt hàng thành công")
       }
     } catch (error) {
-      toast.error("Đặt hàng thất bại.");
+      toast.error("Đặt hàng thất bại.")
     }
-  };
+  }
 
   if (checkDataPayment.length === 0) {
-    return <Navigate to={path.cart} />;
+    return <Navigate to={path.cart} />
   }
 
   return (
@@ -205,7 +206,7 @@ export default function PaymentPage() {
               {item.count} x {item.data.product_name}
             </div>
             <div className="col-span-3 border border-slate-300 flex justify-center items-center">
-              {(item.data.price * item.count).toLocaleString()}VND
+              {formatCurrencyVND(item.data.price * item.count)}
             </div>
             <div
               className="col-span-1 border border-slate-300 flex justify-center items-center cursor-pointer"
@@ -221,10 +222,12 @@ export default function PaymentPage() {
             Tổng phụ
           </div>
           <div className="col-span-4 border border-slate-300 text-end p-2">
-            {checkDataPayment
-              .reduce((acc, cur) => acc + cur.count * cur.data.price, 0)
-              .toLocaleString()}
-            VND
+            {formatCurrencyVND(
+              checkDataPayment.reduce(
+                (acc, cur) => acc + cur.count * cur.data.price,
+                0
+              )
+            )}
           </div>
         </div>
         <div className="grid grid-cols-10">
@@ -232,7 +235,7 @@ export default function PaymentPage() {
             Phí vận chuyển
           </div>
           <div className="col-span-4 border border-slate-300 text-end p-2">
-            60,000VND
+            60,000 ₫
           </div>
         </div>
         <div className="grid grid-cols-10">
@@ -240,10 +243,12 @@ export default function PaymentPage() {
             Tổng cộng
           </div>
           <div className="col-span-4 border border-slate-300 text-end p-2">
-            {checkDataPayment
-              .reduce((acc, cur) => acc + cur.count * cur.data.price, 60000)
-              .toLocaleString()}
-            VND
+            {formatCurrencyVND(
+              checkDataPayment.reduce(
+                (acc, cur) => acc + cur.count * cur.data.price,
+                60000
+              )
+            )}
           </div>
         </div>
         <div className="my-3">
@@ -298,5 +303,5 @@ export default function PaymentPage() {
         </div>
       </div>
     </div>
-  );
+  )
 }
