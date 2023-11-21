@@ -1,12 +1,12 @@
-import { useDispatch, useSelector } from "react-redux";
-import { NavLink, useNavigate } from "react-router-dom";
-import { addCart } from "../../../redux/CartSlice";
+import { useDispatch, useSelector } from "react-redux"
+import { NavLink, useNavigate } from "react-router-dom"
+import { addCart } from "../../../redux/CartSlice"
 
 export default function ProductHomePage() {
-  const category = useSelector((state) => state.json.content.category);
-  const product = useSelector((state) => state.json.content.product);
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
+  const category = useSelector((state) => state.json.content.category)
+  const product = useSelector((state) => state.json.content.product)
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
   const handleAddCart = (item) => {
     dispatch(
       addCart({
@@ -14,8 +14,8 @@ export default function ProductHomePage() {
         count: 1,
         checked: false,
       })
-    );
-  };
+    )
+  }
   return (
     <div className="flex flex-col">
       {category &&
@@ -39,7 +39,7 @@ export default function ProductHomePage() {
                       <img
                         src={item.url_img}
                         alt=""
-                        className="w-full object-cover cursor-pointer scale-95 duration-500 ease-in-out hover:scale-100 rounded"
+                        className="w-full h-[250px] object-center cursor-pointer scale-95 duration-500 ease-in-out hover:scale-100 rounded"
                         onClick={() => navigate(`/${itemCate.url}/${item.id}`)}
                       />
 
@@ -68,5 +68,5 @@ export default function ProductHomePage() {
           </div>
         ))}
     </div>
-  );
+  )
 }

@@ -1,36 +1,35 @@
-import { Pagination } from "@mui/material";
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
-import { addCart } from "../../redux/CartSlice";
-import { sortFilterProduct } from "./SortProduct";
+import { Pagination } from "@mui/material"
+import { useEffect, useState } from "react"
+import { useDispatch, useSelector } from "react-redux"
+import { useLocation, useNavigate, useParams } from "react-router-dom"
+import { addCart } from "../../redux/CartSlice"
+import { sortFilterProduct } from "./SortProduct"
 
 export default function ProductList() {
-  const dispatch = useDispatch();
-  const { url } = useParams();
-  const navigate = useNavigate();
-  const urlLink = useLocation();
-  const [page, setPage] = useState(1);
-  const [selectSort, setSelectSort] = useState("default");
-  const categoryList = useSelector((state) => state.json.content.category);
-  const productList = useSelector((state) => state.json.content.product);
+  const dispatch = useDispatch()
+  const { url } = useParams()
+  const navigate = useNavigate()
+  const urlLink = useLocation()
+  const [page, setPage] = useState(1)
+  const [selectSort, setSelectSort] = useState("default")
+  const categoryList = useSelector((state) => state.json.content.category)
+  const productList = useSelector((state) => state.json.content.product)
   const categoryId =
-    categoryList && categoryList.find((item) => item.url === url).category_id;
+    categoryList && categoryList.find((item) => item.url === url).category_id
   const productListById =
-    productList &&
-    productList.filter((item) => item.category_id === categoryId);
-  const totalPage = productListById && Math.ceil(productListById.length / 8);
+    productList && productList.filter((item) => item.category_id === categoryId)
+  const totalPage = productListById && Math.ceil(productListById.length / 8)
   const handleChange = (event, value) => {
-    setPage(value);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+    setPage(value)
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
   const productListFilterChange =
-    productListById && productListById.splice((page - 1) * 8, 8);
+    productListById && productListById.splice((page - 1) * 8, 8)
 
   useEffect(() => {
-    setPage(1);
-    setSelectSort("default");
-  }, [urlLink.pathname]);
+    setPage(1)
+    setSelectSort("default")
+  }, [urlLink.pathname])
 
   const handleAddCart = (item) => {
     dispatch(
@@ -39,8 +38,8 @@ export default function ProductList() {
         count: 1,
         checked: false,
       })
-    );
-  };
+    )
+  }
 
   if (!productListById) {
     return (
@@ -65,7 +64,7 @@ export default function ProductList() {
           />
         </svg>
       </div>
-    );
+    )
   }
 
   return (
@@ -94,7 +93,7 @@ export default function ProductList() {
             <img
               src={item.url_img}
               alt=""
-              className="w-full object-cover cursor-pointer scale-95 duration-500 ease-in-out hover:scale-100 rounded"
+              className="w-full h-[250px] object-center cursor-pointer scale-95 duration-500 ease-in-out hover:scale-100 rounded"
               onClick={() => navigate(`/${url}/${item.id}`)}
             />
             <div className="flex flex-col my-2 gap-1 justify-center items-center">
@@ -118,5 +117,5 @@ export default function ProductList() {
         <Pagination count={totalPage} page={page} onChange={handleChange} />
       </div>
     </div>
-  );
+  )
 }

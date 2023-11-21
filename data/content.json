@@ -3,69 +3,69 @@
     {
       "category_id": 1,
       "category_name": "Hoa Cưới",
-      "url":"hoacuoi",
-      "id":1
-    }, 
+      "url": "hoacuoi",
+      "id": 1
+    },
     {
       "category_id": 2,
       "category_name": "Hoa Tình Yêu",
-      "url":"hoatinhyeu",
-      "id":2
+      "url": "hoatinhyeu",
+      "id": 2
     },
     {
       "category_id": 3,
       "category_name": "Hoa Khai Trương",
-      "url":"hoakhaitruong",
-      "id":3
+      "url": "hoakhaitruong",
+      "id": 3
     },
     {
       "category_id": 4,
       "category_name": "Bó Hoa",
-      "url":"bohoa",
-      "id":4
+      "url": "bohoa",
+      "id": 4
     },
     {
       "category_id": 5,
       "category_name": "Giỏ Hoa",
-      "url":"giohoa",
-      "id":5
+      "url": "giohoa",
+      "id": 5
     },
     {
       "category_id": 6,
       "category_name": "Bình Hoa",
-      "url":"binhhoa",
-      "id":6
+      "url": "binhhoa",
+      "id": 6
     },
     {
       "category_id": 7,
       "category_name": "Hoa Sinh Nhật",
-      "url":"hoasinhnhat",
-      "id":7
-    },  
+      "url": "hoasinhnhat",
+      "id": 7
+    },
     {
       "category_id": 8,
       "category_name": "Hoa Hồng",
-      "url":"hoahong",
-      "id":8
+      "url": "hoahong",
+      "id": 8
     },
     {
       "category_id": 9,
       "category_name": "Hoa Tốt Nghiệp",
-      "url":"hoatotnghiep",
-      "id":9
+      "url": "hoatotnghiep",
+      "id": 9
     },
     {
       "category_id": 10,
       "category_name": "Hoa Tang Lễ",
-      "url":"hoatang",
-      "id":10
+      "url": "hoatang",
+      "id": 10
     }
   ],
   "product": [
     {
       "product_name": "Hoa Cưới Ấm Áp",
       "price": 520000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/FCBouquet_May_4365-271x271.jpg.webp",
+      "url_img": "/img1.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -76,7 +76,7 @@
     {
       "product_name": "Hẹn Ước Trăm Năm",
       "price": 550000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/bo-hoa-cuoi-hoa-sen-hong-02-271x271.jpg.webp",
+      "url_img": "/img1 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -87,7 +87,7 @@
     {
       "product_name": "Hoa Cưới Pha Lê Tím",
       "price": 560000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/FCProducts_Novx_4372-271x271.jpg.webp",
+      "url_img": "/img1 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -98,7 +98,7 @@
     {
       "product_name": "Hoa Cưới Sen Trắng Mắt Cười",
       "price": 570000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Jul/mat-cuoi-271x271.jpg.webp",
+      "url_img": "/img1 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -109,7 +109,7 @@
     {
       "product_name": "Hoa Cưới Nên Duyên",
       "price": 580000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-6-271x271.jpg.webp",
+      "url_img": "/img1 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -120,7 +120,7 @@
     {
       "product_name": "Hoa Cưới Nắng Bên Thềm",
       "price": 600000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/BOUQUET-4374_Mar-271x271.png.webp",
+      "url_img": "/img1 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -131,7 +131,7 @@
     {
       "product_name": "Hoa cầm tay cô dâu Môi Kề Môi",
       "price": 610000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/moi-ke-moi-271x271.jpg.webp",
+      "url_img": "/img1 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -142,7 +142,7 @@
     {
       "product_name": "Hoa cầm tay cô dâu Ngát Xanh",
       "price": 620000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-12-271x271.jpg.webp",
+      "url_img": "/img1 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -153,7 +153,7 @@
     {
       "product_name": "Hoa Cưới Cầm Tay Ngày Chung Đôi",
       "price": 650000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/BOUQUET-4193_Mar-271x271.png.webp",
+      "url_img": "/img1 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -164,7 +164,7 @@
     {
       "product_name": "Ngày Đặc Biệt",
       "price": 650000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/bo-hoa-cuoi-hoa-sen-hong-01-271x271.jpg.webp",
+      "url_img": "/img1 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -175,7 +175,7 @@
     {
       "product_name": "Hoa Cầm Tay Cô Dâu Hạnh Phúc",
       "price": 660000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/bo-hoa-cuoi-hanh-phuc-271x271.jpg.webp",
+      "url_img": "/img1 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -186,7 +186,7 @@
     {
       "product_name": "Hoa Cưới Tình Si",
       "price": 660000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/BOUQUET-4379_Mar-271x271.png.webp",
+      "url_img": "/img1 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -197,7 +197,7 @@
     {
       "product_name": "Hoa Cưới Ngày Rạng Ngời",
       "price": 670000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Dec/BOUQUET-4241_Dec-271x271.jpg.webp",
+      "url_img": "/img1 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -208,7 +208,7 @@
     {
       "product_name": "Hoa Cưới Tiếng Yêu",
       "price": 670000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/hctcd12093-271x271.jpg.webp",
+      "url_img": "/img1 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -219,7 +219,7 @@
     {
       "product_name": "Ngày Sánh Đôi",
       "price": 670000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/fc%20(6)-BOUQUET-4247-600x600%20(1)-271x271.jpg.webp",
+      "url_img": "/img1 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -230,7 +230,7 @@
     {
       "product_name": "Bó Hoa Cưới Sunshine",
       "price": 690000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/BOUQUET-5575-271x271.jpg.webp",
+      "url_img": "/img1 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -241,7 +241,7 @@
     {
       "product_name": "Nắm Lấy Tay Anh",
       "price": 690000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-7-271x271.jpg.webp",
+      "url_img": "/img1 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -252,7 +252,7 @@
     {
       "product_name": "Hoa Cưới Mưa Tình Yêu",
       "price": 700000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Apr/FCBouquet_Apr_4359-271x271.jpg.webp",
+      "url_img": "/img1 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -263,7 +263,7 @@
     {
       "product_name": "Hoa Cưới Fairytale",
       "price": 710000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-03-271x271.jpg.webp",
+      "url_img": "/img1 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -274,7 +274,7 @@
     {
       "product_name": "Hoa Cưới Thanh Khiết",
       "price": 710000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/June%202022/hoa-cuoi-cam-tay-01-271x271.jpg.webp",
+      "url_img": "/img1 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -283,14 +283,10 @@
       "id": 20
     },
 
-  
-
-
-
     {
       "product_name": "May Mắn",
       "price": 590000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202022/hoa-chuc-mung-may-man-271x271.jpg.webp",
+      "url_img": "/img3.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -301,7 +297,7 @@
     {
       "product_name": "Khoe Sắc Thắm",
       "price": 810000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/ARRANG-4325_Aug-271x271.jpg.webp",
+      "url_img": "/img3 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -312,7 +308,7 @@
     {
       "product_name": "Kệ Hoa Chúc Mừng Vững Tin",
       "price": 820000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/STANDEE-4246-271x271.jpg.webp",
+      "url_img": "/img3 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -323,7 +319,7 @@
     {
       "product_name": "Tươi Sáng",
       "price": 820000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Oct/tuoi-sang-271x271.jpg.webp",
+      "url_img": "/img3 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -334,7 +330,7 @@
     {
       "product_name": "Món Quà Chúc Mừng",
       "price": 840000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/mon-qua-chuc-mung-271x271.jpg.webp",
+      "url_img": "/img3 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -345,7 +341,7 @@
     {
       "product_name": "Tài Lộc Song Hành",
       "price": 910000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/FCArrang3_Jun-271x271.jpg.webp",
+      "url_img": "/img3 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -356,7 +352,7 @@
     {
       "product_name": "Hoa Khai Trương Cát Tường",
       "price": 920000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/STANDEE-4188-271x271.jpg.webp",
+      "url_img": "/img3 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -367,7 +363,7 @@
     {
       "product_name": "Kệ Hoa Khai Trương Nhiệt Huyết",
       "price": 920000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Dec/STANDEE-4220_Dec_2020-271x271.jpg.webp",
+      "url_img": "/img3 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -378,7 +374,7 @@
     {
       "product_name": "Hoa chúc mừng Vươn Xa",
       "price": 990000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June_2021/Vuon%20Xa-271x271.jpg.webp",
+      "url_img": "/img3 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -389,7 +385,7 @@
     {
       "product_name": "Best Present",
       "price": 1030000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/ARRANG-4386_Nov-271x271.jpg.webp",
+      "url_img": "/img3 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -400,7 +396,7 @@
     {
       "product_name": "Hoan Ca",
       "price": 1030000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/FCArrang2_Jun-271x271.jpg.webp",
+      "url_img": "/img3 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -411,7 +407,7 @@
     {
       "product_name": "Kệ Hoa Khai Trương Đại Cát",
       "price": 1030000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_DaiCat_Mar4-271x271.jpg.webp",
+      "url_img": "/img3 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -422,7 +418,7 @@
     {
       "product_name": "Ngày Vui",
       "price": 1030000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/FCProducts_Nov_4312-271x271.jpg.webp",
+      "url_img": "/img3 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -433,7 +429,7 @@
     {
       "product_name": "Bùng Cháy",
       "price": 1080000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/ARRANG-4368-271x271.jpg.webp",
+      "url_img": "/img3 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -444,7 +440,7 @@
     {
       "product_name": "Thiên Lộc",
       "price": 1100000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/ARRANG-4381-271x271.jpg.webp",
+      "url_img": "/img3 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -455,7 +451,7 @@
     {
       "product_name": "Rạng Rỡ",
       "price": 1120000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/April_2021/Rang%20Ro-271x271.jpg.webp",
+      "url_img": "/img3 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -466,7 +462,7 @@
     {
       "product_name": "Hoa Chúc Mừng Vạn Sự Hồng Phát",
       "price": 1130000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/STANDEE-4241-271x271.jpg.webp",
+      "url_img": "/img3 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -477,7 +473,7 @@
     {
       "product_name": "Sức Sống",
       "price": 1130000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_June/ARRANG-4301_June_2020-271x271.jpg.webp",
+      "url_img": "/img3 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -488,7 +484,7 @@
     {
       "product_name": "Hoa Chúc Mừng Lucky",
       "price": 1150000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_June/ARRANG-4301_June_2020-271x271.jpg.webp",
+      "url_img": "/img3 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -499,7 +495,7 @@
     {
       "product_name": "Kệ Hoa Khai Trương Vang Danh",
       "price": 1150000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202022/ke-hoa-khai-truong-vang-danh-271x271.jpg.webp",
+      "url_img": "/img3 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -508,14 +504,10 @@
       "id": 40
     },
 
-
-
-
-
     {
       "product_name": "Giọt Nắng",
       "price": 190000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-54-271x271.png.webp",
+      "url_img": "/img4.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -526,7 +518,7 @@
     {
       "product_name": "Bó Hoa Sắc Màu",
       "price": 230000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-sinh-nhat-sac-mau-271x271.jpg.webp",
+      "url_img": "/img4 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -537,7 +529,7 @@
     {
       "product_name": "Giấc mơ nhỏ bé",
       "price": 270000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/BOUQUET-5595-271x271.jpg.webp",
+      "url_img": "/img4 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -548,7 +540,7 @@
     {
       "product_name": "Just Love",
       "price": 300000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/Hoa-sinh-nhat-78-271x271.jpg.webp",
+      "url_img": "/img4 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -559,7 +551,7 @@
     {
       "product_name": "Mặt trời của anh",
       "price": 300000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/mat-troi-cua-anh-271x271.jpg.webp",
+      "url_img": "/img4 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -570,7 +562,7 @@
     {
       "product_name": "My bae",
       "price": 320000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-16-271x271.png.webp",
+      "url_img": "/img4 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -581,7 +573,7 @@
     {
       "product_name": "Kiss Me",
       "price": 330000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/July%202022/BOUQUET-9030-271x271.jpg.webp",
+      "url_img": "/img4 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -592,7 +584,7 @@
     {
       "product_name": "Little Love",
       "price": 330000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/little-love-4-271x271.jpg.webp",
+      "url_img": "/img4 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -603,7 +595,7 @@
     {
       "product_name": "Sunny",
       "price": 330000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-huong-duong-sunny-271x271.jpg.webp",
+      "url_img": "/img4 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -614,7 +606,7 @@
     {
       "product_name": "Thanh Tú",
       "price": 340000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/thanh-tu-2-271x271.jpg.webp",
+      "url_img": "/img4 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -625,7 +617,7 @@
     {
       "product_name": "The Hope",
       "price": 340000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June_2021/The%20Hope-271x271.jpg.webp",
+      "url_img": "/img4 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -636,7 +628,7 @@
     {
       "product_name": "Fairy Tale",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-fairy-tale-271x271.jpg.webp",
+      "url_img": "/img4 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -647,7 +639,7 @@
     {
       "product_name": "Khoe Sắc",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-khoe-sac-271x271.jpg.webp",
+      "url_img": "/img4 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -658,7 +650,7 @@
     {
       "product_name": "Lời Nhắn",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-53-271x271.png.webp",
+      "url_img": "/img4 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -669,7 +661,7 @@
     {
       "product_name": "Malibu Sunset",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Jan%202022/Malibu%20Sunset-271x271.jpg.webp",
+      "url_img": "/img4 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -680,7 +672,7 @@
     {
       "product_name": "Người Thương",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-17-271x271.png.webp",
+      "url_img": "/img4 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -691,7 +683,7 @@
     {
       "product_name": "Ánh Sao",
       "price": 360000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-50-271x271.png.webp",
+      "url_img": "/img4 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -702,7 +694,7 @@
     {
       "product_name": "Gió thu",
       "price": 360000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-51-271x271.png.webp",
+      "url_img": "/img4 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -713,7 +705,7 @@
     {
       "product_name": "Hội Ngộ",
       "price": 360000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June_2021/H%E1%BB%99i%20Ng%E1%BB%99-271x271.jpg.webp",
+      "url_img": "/img4 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -724,7 +716,7 @@
     {
       "product_name": "Baby nhỏ xinh",
       "price": 370000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/baby-nho-xinh-1-271x271.jpg.webp",
+      "url_img": "/img4 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -733,14 +725,10 @@
       "id": 60
     },
 
-
-
-
-
     {
       "product_name": "Bản Tình Ca",
       "price": 550000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-65-271x271.png.webp",
+      "url_img": "/img5.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -751,7 +739,7 @@
     {
       "product_name": "Tỏa sáng sắc vàng",
       "price": 550000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-khai-truong-05-271x271.png.webp",
+      "url_img": "/img5 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -762,7 +750,7 @@
     {
       "product_name": "Giỏ Hoa Cúc Trắng",
       "price": 580000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/ARRANG-4343-271x271.jpg.webp",
+      "url_img": "/img5 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -773,7 +761,7 @@
     {
       "product_name": "May Mắn",
       "price": 590000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202022/hoa-chuc-mung-may-man-271x271.jpg.webp",
+      "url_img": "/img5 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -784,7 +772,7 @@
     {
       "product_name": "Giỏ hoa Thạch thảo yêu kiều",
       "price": 610000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Jan%202021/ARRANG-4406-271x271.jpg.webp",
+      "url_img": "/img5 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -795,7 +783,7 @@
     {
       "product_name": "Sắc tím mộng mơ",
       "price": 610000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Dec/ARRANG-4394_Dec_2020-271x271.jpg.webp",
+      "url_img": "/img5 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -806,7 +794,7 @@
     {
       "product_name": "Giỏ hoa Pinky Heaven",
       "price": 680000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Jan%202021/ARRANG-4405-271x271.jpg.webp",
+      "url_img": "/img5 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -817,7 +805,7 @@
     {
       "product_name": "Hộp Hoa Đáng Yêu",
       "price": 680000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/ARRANG-4267_Mar-271x271.png.webp",
+      "url_img": "/img5 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -828,7 +816,7 @@
     {
       "product_name": "Giỏ Hoa Thạch Thảo ",
       "price": 700000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/Gio-hoa-thach-thao-trang-271x271.jpg.webp",
+      "url_img": "/img5 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -839,7 +827,7 @@
     {
       "product_name": "Giỏ Hoa Nụ Cười",
       "price": 710000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/ARRANG-4256_Feb2020-271x271.png.webp",
+      "url_img": "/img5 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -850,7 +838,7 @@
     {
       "product_name": "Sum Họp",
       "price": 760000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/May_2021/Gio%20Hoa%20Huong%20Duong-271x271.jpg.webp",
+      "url_img": "/img5 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -861,7 +849,7 @@
     {
       "product_name": "Hy vọng",
       "price": 780000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/ARRANG-4289-271x271.jpg.webp",
+      "url_img": "/img5 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -872,7 +860,7 @@
     {
       "product_name": "Chào Ngày Mới",
       "price": 790000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/ARRANG-4245-271x271.png.webp",
+      "url_img": "/img5 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -883,7 +871,7 @@
     {
       "product_name": "Hương Hè",
       "price": 790000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/ARRANG-4339-271x271.jpg.webp",
+      "url_img": "/img5 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -894,7 +882,7 @@
     {
       "product_name": "Giỏ Hoa Cô Gái Bé Nhỏ",
       "price": 800000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/newDec18/FCProducts_Dec_4339-271x271.jpg.webp",
+      "url_img": "/img5 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -905,7 +893,7 @@
     {
       "product_name": "Giỏ Hoa Hương Sen",
       "price": 800000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/fc30ARRANG-4303450x450-271x271.jpg.webp",
+      "url_img": "/img5 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -916,7 +904,7 @@
     {
       "product_name": "Đong Đầy",
       "price": 830000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Apr/ARRANG-4276-271x271.png.webp",
+      "url_img": "/img5 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -927,7 +915,7 @@
     {
       "product_name": "Be Happy",
       "price": 850000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/39%20(1)-271x271.png.webp",
+      "url_img": "/img5 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -938,7 +926,7 @@
     {
       "product_name": "Giỏ Hoa Tuyệt Vời",
       "price": 850000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/newDec18/FCbasket_dece2019_4337-271x271.jpg.webp",
+      "url_img": "/img5 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -949,7 +937,7 @@
     {
       "product_name": "Giỏ hoa Thắm sắc",
       "price": 870000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/ARRANG-4371_Nov-271x271.jpg.webp",
+      "url_img": "/img5 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -958,13 +946,10 @@
       "id": 80
     },
 
-
-
-
     {
       "product_name": "Tươi Thắm",
       "price": 580000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/16-2-271x271.jpg.webp",
+      "url_img": "/img6.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -975,7 +960,7 @@
     {
       "product_name": "Bình hoa Tin yêu",
       "price": 670000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/VASE-4124-271x271.jpg.webp",
+      "url_img": "/img6 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -986,7 +971,7 @@
     {
       "product_name": "Nét Ngây Thơ",
       "price": 670000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/VASE-4107_May-271x271.png.webp",
+      "url_img": "/img6 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -997,7 +982,7 @@
     {
       "product_name": "Hương Nắng",
       "price": 690000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/VASE-4103_Mar-271x271.png.webp",
+      "url_img": "/img6 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1008,7 +993,7 @@
     {
       "product_name": "Chân Thành",
       "price": 740000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/VASE-4099-271x271.jpg.webp",
+      "url_img": "/img6 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1019,7 +1004,7 @@
     {
       "product_name": "Li Ti",
       "price": 750000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/VASE-4104-271x271.jpg.webp",
+      "url_img": "/img6 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1030,7 +1015,7 @@
     {
       "product_name": "Bình Hoa vươn lên",
       "price": 780000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/VASE-4122-271x271.jpg.webp",
+      "url_img": "/img6 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1041,7 +1026,7 @@
     {
       "product_name": "Bừng Sáng",
       "price": 800000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/VASE-4093_Aug_2020-271x271.jpg.webp",
+      "url_img": "/img6 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1052,7 +1037,7 @@
     {
       "product_name": "Bình Hoa Hồng Đỏ",
       "price": 830000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/fc24VASE4109-271x271.jpg.webp",
+      "url_img": "/img6 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1063,7 +1048,7 @@
     {
       "product_name": "Bình Hoa Tươi",
       "price": 830000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/hoa-cuoi-tron-doi-271x271.jpg.webp",
+      "url_img": "/img6 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1074,7 +1059,7 @@
     {
       "product_name": "Hạnh Phúc Muôn Màu",
       "price": 830000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/FCArrang_March26_4116-271x271.jpg.webp",
+      "url_img": "/img6 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1085,7 +1070,7 @@
     {
       "product_name": "Bình hoa Nắng mới",
       "price": 940000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Oct/VASE-4125-271x271.jpg.webp",
+      "url_img": "/img6 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1096,7 +1081,7 @@
     {
       "product_name": "Giọt Nắng Lấp Lánh",
       "price": 940000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/FCVASE_July-271x271.jpg.webp",
+      "url_img": "/img6 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1107,7 +1092,7 @@
     {
       "product_name": "Tỏa hương sắc thắm",
       "price": 980000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Oct/VASE-4126-271x271.jpg.webp",
+      "url_img": "/img6 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1118,7 +1103,7 @@
     {
       "product_name": "Kề Bên",
       "price": 1010000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/VASE-4097-271x271.jpg.webp",
+      "url_img": "/img6 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1129,7 +1114,7 @@
     {
       "product_name": "Bình hoa rực nắng",
       "price": 1170000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/VASE-4123-271x271.jpg.webp",
+      "url_img": "/img6 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1140,7 +1125,7 @@
     {
       "product_name": "Trọn Một Tình Yêu",
       "price": 1200000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/fc3VASE4106450x450-271x271.jpg.webp",
+      "url_img": "/img6 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1151,7 +1136,7 @@
     {
       "product_name": "Bình Hoa Tinh Tế",
       "price": 1270000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/VASE-4118-271x271.jpg.webp",
+      "url_img": "/img6 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1162,7 +1147,7 @@
     {
       "product_name": "Hào Quang",
       "price": 1270000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/1_dienhoa/products/fcn_vase_13-271x271.jpg.webp",
+      "url_img": "/img6 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1173,7 +1158,7 @@
     {
       "product_name": "Vụt Sáng",
       "price": 1270000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/1_dienhoa/products/fcn_vase_7-271x271.jpg.webp",
+      "url_img": "/img6 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1182,16 +1167,10 @@
       "id": 100
     },
 
-
-
-
-
-
-
     {
       "product_name": "Âm Thầm",
       "price": 610000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/bo-hoa-hong-trang-am-tham-271x271.jpg.webp",
+      "url_img": "/img7.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1202,7 +1181,7 @@
     {
       "product_name": "Ẩn Dấu",
       "price": 480000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Jan%202022/An%20Dau-271x271.jpg.webp",
+      "url_img": "/img7 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1213,7 +1192,7 @@
     {
       "product_name": "An Nhiên",
       "price": 750000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Oct/BOUQUET-4221_Oct-271x271.jpg.webp",
+      "url_img": "/img7 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1224,7 +1203,7 @@
     {
       "product_name": "Ánh Dương",
       "price": 490000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_June/BOUQUET-4332_June-271x271.jpg.webp",
+      "url_img": "/img7 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1235,7 +1214,7 @@
     {
       "product_name": "Ánh Hồng",
       "price": 1780000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/ARRANG-4287-271x271.jpg.webp",
+      "url_img": "/img7 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1246,7 +1225,7 @@
     {
       "product_name": "Ánh Mặt Trời",
       "price": 490000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/BOUQUET-4280-271x271.jpg.webp",
+      "url_img": "/img7 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1257,7 +1236,7 @@
     {
       "product_name": "Baby Xanh Kẹo Ngọt",
       "price": 850000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/April_2021/Baby%20Xanh%20Keo%20Ngot-271x271.jpg.webp",
+      "url_img": "/img7 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1268,7 +1247,7 @@
     {
       "product_name": "Bầu Trời",
       "price": 530000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/FCProduct_Sep_4184-271x271.jpg.webp",
+      "url_img": "/img7 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1279,7 +1258,7 @@
     {
       "product_name": "Bầu trời xanh",
       "price": 2040000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Jan%202021/BOUQUET-6879-271x271.jpg.webp",
+      "url_img": "/img7 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1290,7 +1269,7 @@
     {
       "product_name": "Bầu trời xanh trong",
       "price": 1280000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Jan%202021/VASE-4134-271x271.jpg.webp",
+      "url_img": "/img7 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1301,7 +1280,7 @@
     {
       "product_name": "Be Happy",
       "price": 850000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/39%20(1)-271x271.png.webp",
+      "url_img": "/img7 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1312,7 +1291,7 @@
     {
       "product_name": "Be Mine",
       "price": 5000000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-71-271x271.png.webp",
+      "url_img": "/img7 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1323,7 +1302,7 @@
     {
       "product_name": "Beautiful You",
       "price": 740000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Oct_2021/B%C3%B3%20H%E1%BB%93ng%20Xinh-271x271.jpg.webp",
+      "url_img": "/img7 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1334,7 +1313,7 @@
     {
       "product_name": "Beauty",
       "price": 750000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/bo-hoa-beauty-271x271.jpg.webp",
+      "url_img": "/img7 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1345,7 +1324,7 @@
     {
       "product_name": "Bình Hoa Khởi Đầu",
       "price": 2000000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-60-271x271.png.webp",
+      "url_img": "/img7 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1356,7 +1335,7 @@
     {
       "product_name": "Best Wishes",
       "price": 450000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/bo-hoa-best-wishes-271x271.jpg.webp",
+      "url_img": "/img7 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1367,7 +1346,7 @@
     {
       "product_name": "Bí ẩn",
       "price": 760000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June_2021/B%C3%AD%20%E1%BA%A9n-271x271.jpg.webp",
+      "url_img": "/img7 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1378,7 +1357,7 @@
     {
       "product_name": "Blue Heart",
       "price": 620000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_June/ARRANG-4288_1-271x271.jpg.webp",
+      "url_img": "/img7 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1389,7 +1368,7 @@
     {
       "product_name": "Bó Cúc Tana Siêu To",
       "price": 920000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Jul/cuc-tana-sieu-to-271x271.jpg.webp",
+      "url_img": "/img7 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1400,7 +1379,7 @@
     {
       "product_name": "Bó Hoa Bé Xinh",
       "price": 540000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Jan%202022/B%C3%B3%20Hoa%20B%C3%A9%20Xinh-271x271.jpg.webp",
+      "url_img": "/img7 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1409,17 +1388,10 @@
       "id": 120
     },
 
-
-
-
-
-
-
-
     {
       "product_name": "100 Ngày Yêu",
       "price": 2920000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/BOUQUET-4281-271x271.jpg.webp",
+      "url_img": "/img2.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1430,7 +1402,7 @@
     {
       "product_name": "An Nhiên",
       "price": 750000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Oct/BOUQUET-4221_Oct-271x271.jpg.webp",
+      "url_img": "/img2 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1441,7 +1413,7 @@
     {
       "product_name": "Bầu Trời",
       "price": 530000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/FCProduct_Sep_4184-271x271.jpg.webp",
+      "url_img": "/img2 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1452,7 +1424,7 @@
     {
       "product_name": "Be Mine",
       "price": 5000000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-71-271x271.png.webp",
+      "url_img": "/img2 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1463,7 +1435,7 @@
     {
       "product_name": "Bình Minh",
       "price": 1520000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_June/ARRANG-4288_1-271x271.jpg.webp",
+      "url_img": "/img2 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1474,7 +1446,7 @@
     {
       "product_name": "Bó Hoa Bright Pink",
       "price": 570000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/bright-pink-271x271.jpg.webp",
+      "url_img": "/img2 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1485,7 +1457,7 @@
     {
       "product_name": "Bó Hoa Hân Hoan",
       "price": 1330000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/July_2021/B%C3%B3%20Hoa%20H%C3%A2n%20Hoan-271x271.jpg.webp",
+      "url_img": "/img2 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1496,7 +1468,7 @@
     {
       "product_name": "Bó Hoa Mộng Mơ",
       "price": 850000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/BOUQUET-4211_feb2020-271x271.jpg.webp",
+      "url_img": "/img2 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1507,7 +1479,7 @@
     {
       "product_name": "Bó hoa Tinh Tế",
       "price": 550000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Jan%202022/Bo%20hoa%20Tinh%20Te-271x271.jpg.webp",
+      "url_img": "/img2 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1518,7 +1490,7 @@
     {
       "product_name": "Bó Hoa Tulip - Sweet Love",
       "price": 1160000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/bo-hoa-tulip-hong-Sweet-Love-271x271.jpg.webp",
+      "url_img": "/img2 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1529,7 +1501,7 @@
     {
       "product_name": "Bó Hoa Tulip - Thiên Thanh",
       "price": 940000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/thien-thanh-271x271.jpg.webp",
+      "url_img": "/img2 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1540,7 +1512,7 @@
     {
       "product_name": "Bó Hoa Tulip Hồng - Hân Hoan",
       "price": 1700000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/FCProducts_Oct_4245-271x271.jpg.webp",
+      "url_img": "/img2 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1551,7 +1523,7 @@
     {
       "product_name": "Bó Hoa Xinh Xắn",
       "price": 1220000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Mar_2021/B%C3%B3%20Hoa%20Xinh%20X%E1%BA%AFn-271x271.jpg.webp",
+      "url_img": "/img2 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1562,7 +1534,7 @@
     {
       "product_name": "Bông Gòn",
       "price": 750000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/BOUQUET-4185-271x271.jpg.webp",
+      "url_img": "/img2 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1573,7 +1545,7 @@
     {
       "product_name": "Burning Love",
       "price": 590000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-hong-sinh-nhat-01-271x271.jpg.webp",
+      "url_img": "/img2 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1584,7 +1556,7 @@
     {
       "product_name": "Cảm Nắng",
       "price": 540000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/BOUQUET-4329-271x271.jpg.webp",
+      "url_img": "/img2 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1595,7 +1567,7 @@
     {
       "product_name": "Chào em!",
       "price": 410000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Dec%202021/Ch%C3%A0o%20em!-271x271.jpg.webp",
+      "url_img": "/img2 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1606,7 +1578,7 @@
     {
       "product_name": "Candy",
       "price": 820000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/BOUQUET-4252_Mar-271x271.png.webp",
+      "url_img": "/img2 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1617,7 +1589,7 @@
     {
       "product_name": "Cầu Vồng Ngọt Ngào",
       "price": 1450000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Dec%202020/BOX-4153-271x271.jpg.webp",
+      "url_img": "/img2 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1628,7 +1600,7 @@
     {
       "product_name": "Che Chở",
       "price": 560000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/FCBouquet_March22_4226-271x271.jpg.webp",
+      "url_img": "/img2 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1637,13 +1609,10 @@
       "id": 140
     },
 
-
-
-
     {
       "product_name": "Bó Hoa Sắc Màu",
       "price": 230000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-sinh-nhat-sac-mau-271x271.jpg.webp",
+      "url_img": "/img8.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1654,7 +1623,7 @@
     {
       "product_name": "Mặt trời của anh",
       "price": 300000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/mat-troi-cua-anh-271x271.jpg.webp",
+      "url_img": "/img8 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1665,7 +1634,7 @@
     {
       "product_name": "Little Love",
       "price": 330000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/little-love-4-271x271.jpg.webp",
+      "url_img": "/img8 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1676,8 +1645,8 @@
     {
       "product_name": "Fairy Tale",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-fairy-tale-271x271.jpg.webp",
-      
+      "url_img": "/img8 (4).png",
+
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1688,7 +1657,7 @@
     {
       "product_name": "Đôi Mươi",
       "price": 540000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/JPG/4176_2020-271x271.jpg.webp",
+      "url_img": "/img8 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1699,8 +1668,8 @@
     {
       "product_name": "Đồng Hồ Cát",
       "price": 810000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/BOUQUET-5533_May_2020-271x271.png.webp",
-      
+      "url_img": "/img8 (6).png",
+
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1711,7 +1680,7 @@
     {
       "product_name": "Đỏ Thắm",
       "price": 680000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Dec%202021/%C4%90%E1%BB%8F%20Th%E1%BA%AFm-271x271.jpg.webp",
+      "url_img": "/img8 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1722,7 +1691,7 @@
     {
       "product_name": "Đỏ Rực Rỡ",
       "price": 500000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/FCProducts_Aug_4197-271x271.jpg.webp",
+      "url_img": "/img8 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1733,7 +1702,7 @@
     {
       "product_name": "Đỏ Nồng Nàn",
       "price": 540000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/do-nong-nan-271x271.jpg.webp",
+      "url_img": "/img8 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1744,7 +1713,7 @@
     {
       "product_name": "Điều Hạnh Phúc",
       "price": 720000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June_2021/BOUQUET-9011-271x271.jpg.webp",
+      "url_img": "/img8 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1755,7 +1724,7 @@
     {
       "product_name": "Đắm Say",
       "price": 850000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/BOUQUET-4289_May_2020-271x271.jpg.webp",
+      "url_img": "/img8 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1766,7 +1735,7 @@
     {
       "product_name": "Đáng Yêu",
       "price": 860000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New-July/%C4%90%C3%81NG-Y%C3%8AU-271x271.jpg.webp",
+      "url_img": "/img8 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1777,7 +1746,7 @@
     {
       "product_name": "Đặc Biệt (Hồng Premium)",
       "price": 740000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Dec/BOUQUET-5643-271x271.jpg.webp",
+      "url_img": "/img8 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1788,7 +1757,7 @@
     {
       "product_name": "Your Day",
       "price": 470000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-22-271x271.png.webp",
+      "url_img": "/img8 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1799,7 +1768,7 @@
     {
       "product_name": "Yêu Thương Ngọt Ngào",
       "price": 1470000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/FCBouquet_May_4325-271x271.jpg.webp",
+      "url_img": "/img8 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1810,7 +1779,7 @@
     {
       "product_name": "Yêu Thương Cạnh Bên",
       "price": 1280000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Aug/FCProducts_Aug_4162-271x271.jpg.webp",
+      "url_img": "/img8 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1821,7 +1790,7 @@
     {
       "product_name": "Yêu Thầm",
       "price": 480000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June_2021/BOUQUET-9012-271x271.jpg.webp",
+      "url_img": "/img8 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1832,7 +1801,7 @@
     {
       "product_name": "Yêu Mỗi Em",
       "price": 2500000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202023/yeu-moi-em-271x271.jpg.webp",
+      "url_img": "/img8 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1843,7 +1812,7 @@
     {
       "product_name": "Yêu Kiều",
       "price": 540000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Jan%202022/BOUQUET-4175-271x271.jpg.webp",
+      "url_img": "/img8 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1854,7 +1823,7 @@
     {
       "product_name": "Yêu Hay Không Yêu",
       "price": 820000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/July_2021/Y%C3%8AU%20HAY%20KH%C3%94NG%20Y%C3%8AU-271x271.jpg.webp",
+      "url_img": "/img8 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1863,14 +1832,10 @@
       "id": 160
     },
 
-
-
-    
-
     {
       "product_name": "Ngày Tươi Đẹp",
       "price": 630000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/June%202022/BOUQUET-4279-600px-271x271.jpg.webp",
+      "url_img": "/img9.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1881,7 +1846,7 @@
     {
       "product_name": "Mắt Biếc",
       "price": 630000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/mat-biec-271x271.jpg.webp",
+      "url_img": "/img9 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1892,7 +1857,7 @@
     {
       "product_name": "Lucky",
       "price": 460000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/lucky-271x271.jpg.webp",
+      "url_img": "/img9 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1903,7 +1868,7 @@
     {
       "product_name": "Lời Tri Ân",
       "price": 490000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Feb/BOUQUET-4167_feb2020-271x271.png.webp",
+      "url_img": "/img9 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1914,7 +1879,7 @@
     {
       "product_name": "Lời Nhắn",
       "price": 350000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-53-271x271.png.webp",
+      "url_img": "/img9 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1925,7 +1890,7 @@
     {
       "product_name": "Little Tana",
       "price": 490000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Jan%202021/litle-tana-2-271x271.jpg.webp",
+      "url_img": "/img9 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1936,7 +1901,7 @@
     {
       "product_name": "Hương Nắng Mai",
       "price": 530000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/FCBouquetSunFlower3-271x271.jpg.webp",
+      "url_img": "/img9 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1947,7 +1912,7 @@
     {
       "product_name": "Hẹn Ước - Thạch Thảo Tím",
       "price": 370000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/August%202022/hoa-sinh-nhat-02-271x271.png.webp",
+      "url_img": "/img9 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1958,7 +1923,7 @@
     {
       "product_name": "Hạ Về (Cúc Tana Xinh)",
       "price": 530000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/hoa-sinh-nhat-52-271x271.png.webp",
+      "url_img": "/img9 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -1969,40 +1934,40 @@
     {
       "product_name": "Best Wishes",
       "price": 450000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Product_March/bo-hoa-best-wishes-271x271.jpg.webp",
+      "url_img": "/img9 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
       },
-      "category_id":9,
+      "category_id": 9,
       "id": 170
     },
     {
       "product_name": "Bó Hoa Cheerful",
       "price": 450000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/March%202023/bo-hoa-tot-nghiep-100-271x271.jpg.webp",
+      "url_img": "/img9 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
       },
-      "category_id":9,
+      "category_id": 9,
       "id": 171
     },
     {
       "product_name": "Bó hoa Joyful Life",
       "price": 650000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Dec%202021/JOYFUL%20LIFE-271x271.jpg.webp",
+      "url_img": "/img9 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
       },
-      "category_id":9,
+      "category_id": 9,
       "id": 172
     },
     {
       "product_name": "Bầu Trời",
       "price": 370000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Sep/FCProduct_Sep_4184-271x271.jpg.webp",
+      "url_img": "/img9 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2013,7 +1978,7 @@
     {
       "product_name": "Baby nhỏ xinh",
       "price": 530000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/baby-nho-xinh-1-271x271.jpg.webp",
+      "url_img": "/img9 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2024,7 +1989,7 @@
     {
       "product_name": "Tinh Khiết (Thạch Thảo Trắng)",
       "price": 490000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/Jan%202022/BOUQUET-4319-271x271.jpg.webp",
+      "url_img": "/img9 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2035,7 +2000,7 @@
     {
       "product_name": "Thanh Tú",
       "price": 340000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/thanh-tu-2-271x271.jpg.webp",
+      "url_img": "/img9 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2046,7 +2011,7 @@
     {
       "product_name": "Thanh Vân",
       "price": 450000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Oct/BOUQUET-5606-271x271.png.webp",
+      "url_img": "/img9 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2057,7 +2022,7 @@
     {
       "product_name": "Simple",
       "price": 370000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/simple-271x271.jpg.webp",
+      "url_img": "/img9 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2068,7 +2033,7 @@
     {
       "product_name": "Pháo Hoa",
       "price": 410000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/bo-hoa-cuc-tana-rustic-271x271.jpg.webp",
+      "url_img": "/img9 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2079,7 +2044,7 @@
     {
       "product_name": "Niềm Vui",
       "price": 470000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Dec/bo-hoa-niem-vui-271x271.jpg.webp",
+      "url_img": "/img9 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
@@ -2088,12 +2053,10 @@
       "id": 180
     },
 
-
-
     {
       "product_name": "An Nghỉ",
       "price": 1460000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/May%202022/STANDEE-4153%20update%20(1)-271x271.jpg.webp",
+      "url_img": "/img10.png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2104,7 +2067,7 @@
     {
       "product_name": "Bình yên",
       "price": 1730000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Nov/STANDEE-4163-271x271.jpg.webp",
+      "url_img": "/img10 (2).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2115,7 +2078,7 @@
     {
       "product_name": "Bình Yên Trắng",
       "price": 1670000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/Standee4216xxxHinhNov7-271x271.jpg.webp",
+      "url_img": "/img10 (3).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2126,7 +2089,7 @@
     {
       "product_name": "Chân Kính",
       "price": 1600000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_May/STANDEE-4207-271x271.png.webp",
+      "url_img": "/img10 (4).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2137,7 +2100,7 @@
     {
       "product_name": "Chia xa",
       "price": 1450000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/spmoi/Standee4162xxHinh3110-271x271.jpg.webp",
+      "url_img": "/img10 (5).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2148,7 +2111,7 @@
     {
       "product_name": "Cõi Lành",
       "price": 1190000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4212_Jul_2020-271x271.jpg.webp",
+      "url_img": "/img10 (6).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2159,7 +2122,7 @@
     {
       "product_name": "Giã Từ",
       "price": 1100000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/dec%202022/ke-tang-le-02-271x271.png.webp",
+      "url_img": "/img10 (7).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2170,7 +2133,7 @@
     {
       "product_name": "Hoa Chia Buồn An Giấc",
       "price": 1500000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/vong-hoa-chia-buon-an-giac-271x271.jpg.webp",
+      "url_img": "/img10 (8).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2181,7 +2144,7 @@
     {
       "product_name": "Hoa Chia Buồn An Lạc",
       "price": 1680000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_March26_4234-271x271.jpg.webp",
+      "url_img": "/img10 (9).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2192,7 +2155,7 @@
     {
       "product_name": "Hoa Chia Buồn An Lành",
       "price": 1680000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_March26_4230-271x271.jpg.webp",
+      "url_img": "/img10 (10).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2203,7 +2166,7 @@
     {
       "product_name": "Hoa Chia Buồn An Nhiên",
       "price": 1740000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/STANDEE-4266-271x271.jpg.webp",
+      "url_img": "/img10 (11).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2214,7 +2177,7 @@
     {
       "product_name": "HOA CHIA BUỒN AN TỊNH",
       "price": 1290000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4204-271x271.jpg.webp",
+      "url_img": "/img10 (12).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2225,7 +2188,7 @@
     {
       "product_name": "Hoa Chia Buồn An Yên",
       "price": 1650000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4190-271x271.jpg.webp",
+      "url_img": "/img10 (13).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2236,7 +2199,7 @@
     {
       "product_name": "Hoa Chia Buồn Ánh Chiều Tà",
       "price": 1480000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_March26_5-271x271.jpg.webp",
+      "url_img": "/img10 (14).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2247,7 +2210,7 @@
     {
       "product_name": "Hoa Chia Buồn Dĩ Vãng",
       "price": 100000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_March26_4228-271x271.jpg.webp",
+      "url_img": "/img10 (15).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2258,7 +2221,7 @@
     {
       "product_name": "Hoa Chia Buồn Du Dương",
       "price": 100000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New%20Sep/hoa-chia-buon-du-duong-271x271.jpg.webp",
+      "url_img": "/img10 (16).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2269,7 +2232,7 @@
     {
       "product_name": "HOA CHIA BUỒN HẠ TRẮNG",
       "price": 100000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/hinh%20sua/FCStandee_March26_4192-271x271.jpg.webp",
+      "url_img": "/img10 (17).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2280,7 +2243,7 @@
     {
       "product_name": "HOA CHIA BUỒN HỒI ỨC",
       "price": 100000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/Standee_March/FCStandee_March26_4227-271x271.jpg.webp",
+      "url_img": "/img10 (18).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2291,7 +2254,7 @@
     {
       "product_name": "Hoa Chia Buồn Hư Vô",
       "price": 2070000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/New_Jul/STANDEE-4114-271x271.jpg.webp",
+      "url_img": "/img10 (19).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "
@@ -2302,7 +2265,7 @@
     {
       "product_name": "Hoa Chia Buồn Ký Ức",
       "price": 2390000,
-      "url_img": "https://8384f55340.vws.vegacdn.vn/image/cache/catalog/1_dienhoa/products/fcn_condolence_18-271x271.jpg.webp",
+      "url_img": "/img10 (20).png",
       "detail_product": {
         "title": "mô tả sản phẩm",
         "content": "Mỗi vòng hoa được gửi đi đều hàm chứa nhiều ý nghĩa lớn, vừa là lời chia ly cùng người đã khuất, lời chia buồn với người ở lại, lời động viên với người đang chịu đựng nỗi đau lớn. Vì thế, từng thiết kế, từng chi tiết của vòng hoa luôn được chúng tôi để tâm nhất để truyền đạt một cách trọn vẹn nhất những lời chưa nói của bạn. "

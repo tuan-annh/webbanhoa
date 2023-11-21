@@ -1,54 +1,54 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faFacebook,
   faTwitter,
   faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import { useSelector } from "react-redux";
+} from "@fortawesome/free-brands-svg-icons"
+import { useSelector } from "react-redux"
 import {
   faBars,
   faCartPlus,
   faMagnifyingGlass,
   faUser,
-} from "@fortawesome/free-solid-svg-icons";
-import { NavLink, useNavigate } from "react-router-dom";
-import { path } from "../../contanst/path";
-import { useEffect, useState } from "react";
-import clsx from "clsx";
-import ModalMenu from "../Modal/ModalMenu";
-import ModalSearch from "../Modal/ModalSearch";
+} from "@fortawesome/free-solid-svg-icons"
+import { NavLink, useNavigate } from "react-router-dom"
+import { path } from "../../contanst/path"
+import { useEffect, useState } from "react"
+import clsx from "clsx"
+import ModalMenu from "../Modal/ModalMenu"
+import ModalSearch from "../Modal/ModalSearch"
 
 export default function Header() {
-  const logoHeader = useSelector((state) => state.json.header.logo_shop);
-  const buttonHeader = useSelector((state) => state.json.header.button_page);
-  const cart = useSelector((state) => state.cart);
-  const [isSticky, setIsSticky] = useState(false);
-  const [showModalMenu, setshowModalMenu] = useState(false);
-  const [showModalSearch, setshowModalSearch] = useState(false);
-  const isAuthenticated = useSelector((state) => state.account.isAuthenticated);
-  const navigate = useNavigate();
+  const logoHeader = useSelector((state) => state.json.header.logo_shop)
+  const buttonHeader = useSelector((state) => state.json.header.button_page)
+  const cart = useSelector((state) => state.cart)
+  const [isSticky, setIsSticky] = useState(false)
+  const [showModalMenu, setshowModalMenu] = useState(false)
+  const [showModalSearch, setshowModalSearch] = useState(false)
+  const isAuthenticated = useSelector((state) => state.account.isAuthenticated)
+  const navigate = useNavigate()
 
   const countCart =
     cart &&
     cart.reduce((total, currentValue) => {
-      return total + currentValue.count;
-    }, 0);
+      return total + currentValue.count
+    }, 0)
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset > 100) {
-        setIsSticky(true);
+        setIsSticky(true)
       } else {
-        setIsSticky(false);
+        setIsSticky(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
   return (
     <div>
@@ -102,7 +102,7 @@ export default function Header() {
         <div className="flex basis-1/3 gap-2 justify-end mt-16 sm:mt-0">
           <div className="relative" onClick={() => setshowModalSearch(true)}>
             <input
-              disabled
+              disabled={showModalSearch}
               type="text"
               className="w-[400px] sm:w-full border p-2 rounded cursor-pointer"
               placeholder="Tìm kiếm"
@@ -184,5 +184,5 @@ export default function Header() {
         <ModalSearch setshowModalSearch={setshowModalSearch} />
       )}
     </div>
-  );
+  )
 }

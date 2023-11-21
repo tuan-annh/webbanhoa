@@ -1,35 +1,36 @@
-import { useDispatch, useSelector } from "react-redux";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
-import { addCart } from "../../redux/CartSlice";
-import { useEffect, useState } from "react";
-import ModalBuyCart from "../Modal/ModalBuyCart";
-import ModalDetailImg from "../Modal/ModalDetailImg";
+import { useDispatch, useSelector } from "react-redux"
+import { useLocation, useNavigate, useParams } from "react-router-dom"
+import { addCart } from "../../redux/CartSlice"
+import { useEffect, useState } from "react"
+import ModalBuyCart from "../Modal/ModalBuyCart"
+import ModalDetailImg from "../Modal/ModalDetailImg"
 
 export default function ProductDetails() {
-  const { url, id } = useParams();
-  const urlLink = useLocation();
-  const dispatch = useDispatch();
-  const [count, setCount] = useState(1);
-  const categoryList = useSelector((state) => state.json.content.product);
-  const [showModal, setshowModal] = useState(false);
-  const [showModalImg, setshowModalImg] = useState(false);
-  const spttUrl = useSelector((state) => state.json.content.category);
-  const idSpttUrl = spttUrl && spttUrl.find((item) => item.url === url);
+  const { url, id } = useParams()
+  const urlLink = useLocation()
+  const dispatch = useDispatch()
+  const [count, setCount] = useState(1)
+  const categoryList = useSelector((state) => state.json.content.product)
+  const [showModal, setshowModal] = useState(false)
+  const [showModalImg, setshowModalImg] = useState(false)
+  const spttUrl = useSelector((state) => state.json.content.category)
+  const idSpttUrl = spttUrl && spttUrl.find((item) => item.url === url)
   const listSpttUrl =
     categoryList &&
-    categoryList.filter((item) => item.category_id === idSpttUrl.category_id);
-  const navigate = useNavigate();
-  const categoryItem = categoryList && categoryList[id - 1];
+    categoryList.filter((item) => item.category_id === idSpttUrl.category_id)
+  const navigate = useNavigate()
+  const categoryItem = categoryList && categoryList[id - 1]
   const handleIncrease = () => {
-    setCount(count + 1);
-  };
+    setCount(count + 1)
+  }
+  console.log(categoryItem)
 
   const handleReduce = () => {
     if (count === 1) {
-      return;
+      return
     }
-    setCount(count - 1);
-  };
+    setCount(count - 1)
+  }
   const handleAddCart = () => {
     dispatch(
       addCart({
@@ -37,8 +38,8 @@ export default function ProductDetails() {
         count: count,
         checked: false,
       })
-    );
-  };
+    )
+  }
   const handleAddCartSPLQ = (item) => {
     dispatch(
       addCart({
@@ -46,12 +47,12 @@ export default function ProductDetails() {
         count: 1,
         checked: false,
       })
-    );
-  };
+    )
+  }
 
   useEffect(() => {
-    setCount(1);
-  }, [urlLink]);
+    setCount(1)
+  }, [urlLink])
 
   if (!categoryItem) {
     return (
@@ -76,7 +77,7 @@ export default function ProductDetails() {
           />
         </svg>
       </div>
-    );
+    )
   }
 
   return (
@@ -194,7 +195,7 @@ export default function ProductDetails() {
                   <img
                     src={item.url_img}
                     alt=""
-                    className="w-full object-cover cursor-pointer shadow scale-95 duration-500 ease-in-out hover:scale-100 rounded"
+                    className="w-full h-[250px] object-center cursor-pointer shadow scale-95 duration-500 ease-in-out hover:scale-100 rounded"
                     onClick={() => navigate(`/${url}/${item.id}`)}
                   />
                   <div className="flex flex-col my-2 gap-1 justify-center items-center">
@@ -225,5 +226,5 @@ export default function ProductDetails() {
         />
       )}
     </div>
-  );
+  )
 }
