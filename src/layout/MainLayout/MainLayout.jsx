@@ -1,49 +1,58 @@
-import PropTypes from "prop-types";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PropTypes from "prop-types"
+import Footer from "../../components/Footer/Footer"
+import Header from "../../components/Header/Header"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faArrowUp,
   faLock,
   faPowerOff,
-} from "@fortawesome/free-solid-svg-icons";
-import { useState, useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-import { path } from "../../contanst/path";
-import { faUser } from "@fortawesome/free-regular-svg-icons";
-import { useDispatch, useSelector } from "react-redux";
-import { Logout } from "../../redux/AccountSlice";
+} from "@fortawesome/free-solid-svg-icons"
+import { useState, useEffect } from "react"
+import { useLocation, useNavigate } from "react-router-dom"
+import { path } from "../../contanst/path"
+import { faUser } from "@fortawesome/free-regular-svg-icons"
+import { useDispatch, useSelector } from "react-redux"
+import { Logout } from "../../redux/AccountSlice"
 
 function MainLayout({ children }) {
-  const [showButton, setShowButton] = useState(false);
-  const location = useLocation();
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const isAuthenticated = useSelector((state) => state.account.isAuthenticated);
+  const [showButton, setShowButton] = useState(false)
+  const location = useLocation()
+  const navigate = useNavigate()
+  const dispatch = useDispatch()
+  const isAuthenticated = useSelector((state) => state.account.isAuthenticated)
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
+    window.scrollTo(0, 0)
+  }, [location])
 
   const handleScroll = () => {
     if (window.pageYOffset > 100) {
-      setShowButton(true);
+      setShowButton(true)
     } else {
-      setShowButton(false);
+      setShowButton(false)
     }
-  };
+  }
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
 
-  window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", handleScroll)
   return (
     <div>
       <div className="border-b hidden sm:block">
         <div className="flex max-w-6xl md:mx-auto justify-between my-2 opacity-80 mx-5">
           <div>
-            <span>HOTLINE: 1900 633 045 | 0865 160 360</span>
+            <span>
+              HOTLINE:{" "}
+              <a href="tel:1900 633 045" className="hover:text-red-500">
+                1900 633 045
+              </a>{" "}
+              |{" "}
+              <a href="tel:0865 160 360" className="hover:text-red-500">
+                0865 160 360
+              </a>
+            </span>
           </div>
 
           {isAuthenticated ? (
@@ -94,11 +103,11 @@ function MainLayout({ children }) {
         </div>
       )}
     </div>
-  );
+  )
 }
 
 MainLayout.propTypes = {
   children: PropTypes.node.isRequired,
-};
+}
 
-export default MainLayout;
+export default MainLayout
