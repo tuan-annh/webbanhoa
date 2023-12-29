@@ -1,21 +1,21 @@
-import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons"
 import {
   faArrowDown,
   faPhoneVolume,
   faZ,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
-import { useSelector } from "react-redux";
-import clsx from "clsx";
-import { useNavigate } from "react-router-dom";
-import { path } from "../../contanst/path";
+} from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useState } from "react"
+import { useSelector } from "react-redux"
+import clsx from "clsx"
+import { useNavigate } from "react-router-dom"
+import { path } from "../../contanst/path"
 
 export default function Footer() {
-  const footerJsonData = useSelector((state) => state.json.footer);
-  const [show1, setShow1] = useState(false);
-  const [show2, setShow2] = useState(false);
-  const navigate = useNavigate();
+  const footerJsonData = useSelector((state) => state.json.footer)
+  const [show1, setShow1] = useState(false)
+  const [show2, setShow2] = useState(false)
+  const navigate = useNavigate()
   return (
     <footer>
       <div className="flex flex-col gap-2 sm:gap-0 mx-2 sm:mx-auto sm:flex-row mb-14 mt-8">
@@ -32,7 +32,7 @@ export default function Footer() {
             {footerJsonData.fl &&
               footerJsonData.fl.content.map((item, index) => (
                 <a
-                  href="https://www.facebook.com/profile.php?id=100009244548897"
+                  href={item.href}
                   key={index}
                   target="_blank"
                   rel="noreferrer"
@@ -67,7 +67,7 @@ export default function Footer() {
                   }
                 )}
                 onClick={() => {
-                  navigate(`${path.customerservice}/${item.url}`);
+                  navigate(`${path.customerservice}/${item.url}`)
                 }}
               >
                 {item.title}
@@ -111,20 +111,42 @@ export default function Footer() {
         <div className="flex justify-center text-white">
           <div className="flex gap-2 justify-center items-center pr-3 sm:pr-10 cursor-pointer border-r">
             <FontAwesomeIcon icon={faPhoneVolume} />
-            <span className="hidden md:block">Gọi ngay 1900 633 045</span>
+            <a href="tel:1900633045" className="hidden md:block">
+              Gọi ngay 1900 633 045
+            </a>
             <span className=" md:hidden">Hỗ trợ</span>
           </div>
           <div className="flex gap-2 justify-center items-center px-3 sm:px-10 cursor-pointer border-r">
             <FontAwesomeIcon icon={faZ} />
-            <span className="hidden md:block">Nhắn Tin Zalo</span>
-            <span className=" md:hidden">Zalo</span>
+            <a
+              className="hidden md:block"
+              href="https://oa.zalo.me/1057696361500855184"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Nhắn Tin Zalo
+            </a>
+            <a
+              className=" md:hidden"
+              href="https://oa.zalo.me/1057696361500855184"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Zalo
+            </a>
           </div>
           <div className="flex gap-2 justify-center items-center pl-3 sm:pl-10 cursor-pointer">
             <FontAwesomeIcon icon={faFacebookMessenger} />
-            <span>Facebook</span>
+            <a
+              href="https://www.facebook.com/flowercorner.vn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook
+            </a>
           </div>
         </div>
       </div>
     </footer>
-  );
+  )
 }

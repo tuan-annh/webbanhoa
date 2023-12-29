@@ -100,8 +100,10 @@ export default function ProductDetails() {
           <span className="text-red-500 text-2xl border-slate-300 pb-2 border-b">
             {formatCurrencyVND(categoryItem.price)}
           </span>
-          <div className="flex gap-2">
-            <span className="font-medium">Khuyến mãi:</span>
+          <div className="flex gap-2 group relative flex-wrap justify-center">
+            <span className="font-medium w-full md:w-fit text-center">
+              Khuyến mãi:
+            </span>
             <span className="bg-[#ffe1e1] px-3 border-dashed border-black/70 rounded text-red-700 font-medium border">
               Giảm 50K
             </span>
@@ -111,6 +113,45 @@ export default function ProductDetails() {
             <span className="bg-[#ffe1e1] px-3 border-dashed border-black/70 rounded text-red-700 font-medium border">
               Giảm 10%
             </span>
+
+            <div className="hidden group-hover:block absolute bg-white top-16 md:top-8 w-full border border-slate-300 p-3 rounded-sm z-10 ">
+              <div className="border border-dashed border-red-500 flex p-2 bg-red-100 gap-2 rounded-md">
+                <div className="bg-red-600 font-bold text-white w-1/6 flex justify-center items-center rounded-md">
+                  FC50
+                </div>
+                <div className="w-5/6">
+                  <h3 className="text-red-500 font-bold">Giảm 50K</h3>
+                  <p className="text-[14px]">
+                    Giảm 50K cho đơn hàng từ 600K (Chỉ áp dụng cho khách hàng
+                    mới. Không áp dụng đồng thời cho các sản phẩm đã giảm giá).
+                  </p>
+                </div>
+              </div>
+              <div className="border border-dashed border-red-500 flex p-2 bg-red-100 gap-2 rounded-md my-2">
+                <div className="bg-red-600 font-bold text-white w-1/6 flex justify-center items-center rounded-md">
+                  FC25
+                </div>
+                <div className="w-5/6">
+                  <h3 className="text-red-500 font-bold">Giảm 50K</h3>
+                  <p className="text-[14px]">
+                    Giảm 25K cho tất cả đơn hàng (Chỉ áp dụng cho khách hàng
+                    mới. Không áp dụng đồng thời cho các sản phẩm đã giảm giá).
+                  </p>
+                </div>
+              </div>
+              <div className="border border-dashed border-red-500 flex p-2 bg-red-100 gap-2 rounded-md">
+                <div className="bg-red-600 font-bold text-white w-1/6 flex justify-center items-center rounded-md">
+                  VUIVE
+                </div>
+                <div className="w-5/6">
+                  <h3 className="text-red-500 font-bold">Giảm 10%</h3>
+                  <p className="text-[14px]">
+                    Giảm 10% cho tất cả đơn hàng khi đặt hoa vào thứ 6 hàng tuần
+                    (Không áp dụng đồng thời cho các sản phẩm đã giảm giá).
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <span className="flex gap-2 items-center">
             <span className="font-medium">Gọi ngay:</span>

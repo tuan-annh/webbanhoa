@@ -1,160 +1,164 @@
 {
-    "list_header_left": [
+  "list_header_left": [
+    {
+      "url": "gioithieu",
+      "title": "Giới Thiệu Về Flower Corner Shop",
+      "content": [
         {
-            "url": "gioithieu",
-            "title": "Giới Thiệu Về Flower Corner Shop",
-            "content": [
-                {
-                    "title": "Giới Thiệu Về Flower Corner Shop",
-                    "content": "Shop hoa Flower Corner Shop là một trong những tiệm hoa tươi uy tín nhất tại  Việt Nam. Flower Corner Shop cung cấp dịch vụ đặt hoa online giao tận nơi tại TP HCM, Hà Nội và trên tất cả các tỉnh – thành phố tại Việt Nam. Với hệ thống cửa hàng hoa tươi liên kết rộng khắp tất cả các tỉnh – thành phố trên toàn quốc, Flower Corner Shop có thể giúp bạn gửi tặng hoa tươi cho người thân ở bất cứ nơi đâu tại Việt Nam. Flower Corner Shop cam kết mang đến cho bạn những sản phẩm hoa tươi chất lượng cao, với mức giá tốt nhất và dịch chuyên nghiệp nhất khi sử dụng dịch vụ đặt hoa tươi online giao tận nơi tại Flower Corner Shop"
-                },
-                {
-                    "title": "Đặt hoa online giá tốt – Giao nhanh trong 90p",
-                    "content": "Nếu bạn đang tìm kiếm một trang website đặt hoa online giao tận nơi thì Flower Corner Shop là một sự lựa chọn tuyệt vời dành cho bạn. Tại Flower Corner Shop, bạn có thể dễ dàng lựa chọn một mẫu hoa đẹp, ý nghĩa giữa hàng trăm mẫu hoa được thiết kế sẵn để gửi tặng người thân, bạn bè, đối tác trong tất cả các dịp đặc biệt trong năm hay trong những sự kiện như: khai trương, sinh nhật, lễ cưới, lễ tang…Đặc biệt, với dịch vụ giao hoa nhanh trong 90 phút, Flower Corner Shop sẽ giúp bạn kịp thời gửi tặng một bó hoa tới người thân, bạn bè nếu như bạn cần đặt gấp trong ngày."
-                },
-                {
-                    "title": "Tại sao nên chọn Flower Corner Shop",
-                    "content": "Không khó để bạn tìm được một cửa hàng hoa cung cấp dịch vụ đặt hoa online giao tận nơi. Vậy tại sao bạn nên sử dụng dịch vụ điện hoa (Flower Delivery) của Flower Corner Shop? đơn giản bởi vì Flower Corner Shop mang đến cho bạn những trải nhiệm tuyệt vời khi trở thành khách hàng của shop như hoa đẹp,thiết kế đa dạng phù hợp với tất cả sự kiện ,cung cấp đầy đủ thông tin cũng như hình ảnh sản phẩm một cách cụ thể nhất và hơn thế nữa Flower Corner Shop còn có đội ngũ chăm sóc khách hàng chuyên nghiệp với nhiều năm kinh nghiệm sẽ dễ dàng tư vấn cho bạn những lựa chọn ưng ý nhất!"
-                },
-                {
-                    "title": "Cam kết từ Flower Corner Shop",
-                    "content":  "Flower Corner Shop hiểu rằng, hoa tươi dù không mang nhiều giá trị về mặt vật chất, nhưng lại có ý nghĩa rất lớn về mặt tinh thần. Mỗi một bó hoa gửi đi gửi gắm rất nhiều tình cảm, thông điệp yêu thương mà bạn muốn gửi đến những người thân. Chính vì thế, Flower Corner Shop luôn nỗ lực nâng cao chất lượng sản phẩm và dịch vụ để mang đến bạn những trải nghiệm tuyệt vời nhất khi sử dụng dịch vụ của Flower Corner Shop. Flower Corner Shop cam kết chỉ sử dụng hoa tươi mới nhập về trong ngày,hoa đẹp và giống hình trên 95%, giao hoa nhanh đúng giờ"
-                }
-            ]
+          "title": "Giới Thiệu Về Flower Corner Shop",
+          "content": "Shop hoa Flower Corner Shop là một trong những tiệm hoa tươi uy tín nhất tại  Việt Nam. Flower Corner Shop cung cấp dịch vụ đặt hoa online giao tận nơi tại TP HCM, Hà Nội và trên tất cả các tỉnh – thành phố tại Việt Nam. Với hệ thống cửa hàng hoa tươi liên kết rộng khắp tất cả các tỉnh – thành phố trên toàn quốc, Flower Corner Shop có thể giúp bạn gửi tặng hoa tươi cho người thân ở bất cứ nơi đâu tại Việt Nam. Flower Corner Shop cam kết mang đến cho bạn những sản phẩm hoa tươi chất lượng cao, với mức giá tốt nhất và dịch chuyên nghiệp nhất khi sử dụng dịch vụ đặt hoa tươi online giao tận nơi tại Flower Corner Shop"
         },
         {
-            "url": "cauhoithuonggap",
-            "title": "Các câu hỏi thường gặp",
-            "content": [
-                {
-                    "title": "Trong qua trình giao hàng liệu sản phẩm có bị ảnh hưởng đều gì không?",
-                    "content": "Khách hàng thân mến mỗi sản phẩm của shop đều được kiểm tra và đóng gói rất kỹ càng cộng thêm đội ngũ vận chuyển của shop rất nhiều kinh nghiệm làm tỉ mỉ cẩn thận nên sẽ mang tới cho khách hàng những sản phẩm chất lượng và toàn vẹn nhất"
-                },
-                {
-                    "title": "Thời gian giao hàng là bao lâu?",
-                    "content": "Đối với khách hàng ở Hà Nội hoặc thành phố Hồ Chí Minh thì thời gian nhận hàng sẽ là dưới 1 ngày còn ở các tình thành khác thì sẽ là dưới 2 ngày hoặc khách hàng có thể chọn phương thức giao hàng nhanh dưới 90p (chỉ áp dụng khách hàng ở HN và HCM)"
-                },
-                {
-                    "title": "Nếu tôi nhận hàng về và phát hiện hàng bị hư hỏng hoặc không đúng mẫu đã đặt thì sao?",
-                    "content": "Quý khách hàng yên tâm, đừng vội dánh giá shop vội mà hãy liên hệ ngay với đội ngũ hỗ trợ cảu shop để được xử lý một cách nhanh nhất"
-                }
-            ]
+          "title": "Đặt hoa online giá tốt – Giao nhanh trong 90p",
+          "content": "Nếu bạn đang tìm kiếm một trang website đặt hoa online giao tận nơi thì Flower Corner Shop là một sự lựa chọn tuyệt vời dành cho bạn. Tại Flower Corner Shop, bạn có thể dễ dàng lựa chọn một mẫu hoa đẹp, ý nghĩa giữa hàng trăm mẫu hoa được thiết kế sẵn để gửi tặng người thân, bạn bè, đối tác trong tất cả các dịp đặc biệt trong năm hay trong những sự kiện như: khai trương, sinh nhật, lễ cưới, lễ tang…Đặc biệt, với dịch vụ giao hoa nhanh trong 90 phút, Flower Corner Shop sẽ giúp bạn kịp thời gửi tặng một bó hoa tới người thân, bạn bè nếu như bạn cần đặt gấp trong ngày."
         },
         {
-            "url": "chinhsachhoantien",
-            "title": "Chính sách hoàn tiền",
-            "content": [
-                {
-                    "title": "Chính sách đổi trả là gì ?",
-                    "content": "Nếu chất lượng của hoa tươi – quà tặng nhận được khiến bạn không hài lòng, Flower Corner sẽ hỗ trợ giải quyết cho bạn. Hãy chụp và gửi cho Flower Corner hình ảnh của hoa tươi- quà tặng đó cùng yêu cầu của bạn. Flower Corner sẽ giải quyết mọi phản ánh của bạn về vấn đề chất lượng trong vòng một ngày sau khi nhận được hình ảnh. Phản ảnh về vấn đề đơn hàng không tới nơi, bạn phải thông báo trong vòng một ngày kể từ ngày ấn định được giao của đơn hàng,  Thanh toán sẽ được hoàn thông qua thẻ tín dụng, Paypal hoặc bất kỳ phương thức thanh toán nào bạn đã sử dụng để đặt hàng. Yêu cầu hoàn tiền của bạn sẽ không phát sinh chi phí. Các quy định trên được đưa ra nhằm mục đích kiểm soát chất lượng và thu thập sản phẩm lỗi. Flower Corner sẽ không thể gửi sản phẩm mới hoặc thực hiện hoàn trả nếu bạn không giữ lại sản phẩm lỗi hoặc không có hình ảnh chứng minh. "
-                },
-                {
-                    "title": "Chính sách trả hàng và hoàn tiền tại Flower Corner",
-                    "content": "Flower Corner luôn đề cao lợi ích của khách hàng, đảm bảo sự hài lòng của bạn là sứ mệnh của chúng tôi. Tại Flower Corner sản phẩm cũng như việc giao hàng được quản lý chặt chẽ và đảm bảo diễn ra một cách hoàn hảo. Vì tính chất sản phẩm hoa tươi là rất dễ hư hỏng nên nếu có bất kỳ sơ suất nào, chúng tôi sẽ luôn lắng nghe những lo lắng, phản ánh của bạn và hợp tác giải quyết vấn đề nhanh nhất có thể. Nhân viên chăm sóc khách hàng của Flower Corner được đào tạo để hỗ trợ xử lý các vấn đề của bạn một cách nhanh chóng hiệu quả. chính sách hoàn tiền gồm : khách hàng chắc chắn sẽ nhận được hoàn trả đầy đủ,khách hàng sẽ được hoàn lại 50%,không hoàn trả"
-                }
-            ]
+          "title": "Tại sao nên chọn Flower Corner Shop",
+          "content": "Không khó để bạn tìm được một cửa hàng hoa cung cấp dịch vụ đặt hoa online giao tận nơi. Vậy tại sao bạn nên sử dụng dịch vụ điện hoa (Flower Delivery) của Flower Corner Shop? đơn giản bởi vì Flower Corner Shop mang đến cho bạn những trải nhiệm tuyệt vời khi trở thành khách hàng của shop như hoa đẹp,thiết kế đa dạng phù hợp với tất cả sự kiện ,cung cấp đầy đủ thông tin cũng như hình ảnh sản phẩm một cách cụ thể nhất và hơn thế nữa Flower Corner Shop còn có đội ngũ chăm sóc khách hàng chuyên nghiệp với nhiều năm kinh nghiệm sẽ dễ dàng tư vấn cho bạn những lựa chọn ưng ý nhất!"
         },
         {
-            "url": "chinhsachvanchuyen",
-            "title": "Chính sách vận chuyển",
-            "content": [
-                {
-                    "title": "Khu vực giao hàng",
-                    "content": "Shop hoa tươi Flower Corner cung cấp dịch vụ đặt hoa tươi và giao hoa tận nơi tại TP HCM và 63 tỉnh - thành phố tại Việt Nam."
-                },
-                {
-                    "title": "Thời gian giao hàng",
-                    "content": "Flower Corner cam kết giao hoa sớm nhất sau 2 tiếng và muộn nhất là 3 ngày kể từ khi khách hàng đặt hoa và tiến hành thanh toán thành công. Thời gian giao hàng từ 7h30 sáng đến 20h. Với những đơn đặt hàng sau 20h sẽ được giao vào sáng ngày kế tiếp."
-                },
-                {
-                    "title": "Phí giao hàng",
-                    "content": "Flower Corner miễn phí giao hoa trong khu vực nội thành TP HCM. Phí giao hoa khu vực ngoại thành TP HCM là 35.000đ. còn đối với các thành phố khác sẽ là 50.000đ"
-                }
-            ]
-        },
-        {
-            "url": "thongtinlienhe",
-            "title": "Thông tin liên hệ",
-            "content": [
-                {
-                    "title": "Địa chỉ văn phòng:",
-                    "content": "143 Kim Mã, Ba Dình, Hà Nội"
-                },
-                {
-                    "title": "Email của Flower Corner Shop",
-                    "content": "FlowerSCornerhop@gmail.com"
-                },
-                {
-                    "title": "Hoặc gọi trực tiếp qua hotline:",
-                    "content": "0372770547 - 0904920714"
-                }
-            ]
-        },
-        {
-            "url": "tai-sao-nen-chon-flower-corner",
-            "title": "Tại Sao Nên Chọn FlowerCorner.vn",
-            "content": [
-                {
-                    "title": "Nguồn hoa tươi trực tiếp từ mỗi địa phương",
-                    "content": "Chất lượng hoa tươi luôn được FlowerCorner đặt lên hàng đầu. Tại FlowerCorner chỉ những bông hoa ưu tú nhất được tuyển chọn để bảo đảm màu sắc tươi tắn và tuổi thọ hoa được lâu. Những bông hoa được sử dụng luôn bảo đảm đạt được tiêu chuẩn vể màu sắc, kích thước, sự đồng đều của các hoa. FlowerCorner sử dụng nguồn hoa tại vườn, liên kết với các nguồn hoa uy tín đa dạng về loài hoa, màu sắc và bảo đảm chất lượng cao nhất mà vẫn giữ được mức giá rẻ phù hợp với ngân sách của nhiều đối tượng khách hàng. "
-                },
-                {
-                    "title": "Giờ làm việc:",
-                    "content": "FlowerCorner nhận đơn hàng và giao hàng suốt 7 ngày/ tuần – bao gồm cả các ngày lễ với ưu tiêu chí gửi gắm lời yêu thương đến người nhận trong ngày đặc biệt nhanh chóng- tiết kiệm- hiệu quả.  "
-                },
-                {
-                    "title": "Các dịch vụ tặng kèm và dịch vụ khác",
-                    "content": "Mỗi đơn hàng được đặt với FlowerCorner đều được tặng kèm thiệp/ banner miễn phí với lời nhắn bất kỳ theo yêu cầu của bạn trong quá trình đặt hàng. Ngoài hoa tươi FlowerCorner có nhận gửi kèm quà tặng gấu bông và tạo đơn hàng theo yêu cầu (giỏ trái cây, bánh kem v….) tất cả sản phẩm này đều được lựa chọn kỹ lưỡng. Để đặt hàng các sản phẩm không có trong website bạn chỉ cần liên hệ qua email hoặc số điện thoại để được kết nối và tư vấn bởi bộ phận chăm sóc khách hàng của chúng tôi."
-                },
-                {
-                    "title":"Dịch vụ chăm sóc khách hàng chuyên nghiệp",
-                    "content":"Đội ngũ nhân viên chăm sóc khách hàng tại FlowerCorner được đào tạo bài bản với kiến thức rộng về hoa tươi và quà tặng cũng như phong cách hỗ trợ chuyên nghiệp, tận tình để đem lại một trải nghiệp dịch vụ chuyên nghiệp đến khách hàng. Chúng tôi luôn túc trực hỗ trợ bạn trực tuyến trên website, điện thoại, e-mail, có mặt kịp thời để giải đáp thắc mắc và hỗ trợ bạn chu đáo nhất. Nếu bạn có bất cứ phản ánh nào về chất lượng sản phẩm, giao hàng chậm trễ...bạn có thể liên hệ trực tuyến, gọi điện hay gửi e-mail cho chúng tôi theo thông tin “Liên hệ” được cung cấp trên website."                
-                },
-                {
-                    "title":"Chính sách giao hàng trong ngày",
-                    "content":"FlowerCorner có dịch vụ chuyển phát hoa tươi – quà tặng nhanh trong vòng 3 tiếng"
-                }
-            ]
+          "title": "Cam kết từ Flower Corner Shop",
+          "content": "Flower Corner Shop hiểu rằng, hoa tươi dù không mang nhiều giá trị về mặt vật chất, nhưng lại có ý nghĩa rất lớn về mặt tinh thần. Mỗi một bó hoa gửi đi gửi gắm rất nhiều tình cảm, thông điệp yêu thương mà bạn muốn gửi đến những người thân. Chính vì thế, Flower Corner Shop luôn nỗ lực nâng cao chất lượng sản phẩm và dịch vụ để mang đến bạn những trải nghiệm tuyệt vời nhất khi sử dụng dịch vụ của Flower Corner Shop. Flower Corner Shop cam kết chỉ sử dụng hoa tươi mới nhập về trong ngày,hoa đẹp và giống hình trên 95%, giao hoa nhanh đúng giờ"
         }
-    ],
-    
-    "fl": {
-        "content": [
-            {
-                "item": "Facebook",
-                "icon":"fa-brands fa-xl fa-facebook"
-            },
-            {
-                "item": "Instagram",
-                "icon":"fa-brands fa-xl fa-instagram"
-            },
-            {
-                "item": "Youtobe",
-                "icon":"fa-brands fa-xl fa-youtube"
-            },
-            {
-                "item": "Twitter",
-                "icon":"fa-brands fa-xl fa-twitter"
-            }
-        ]
+      ]
     },
-
-    "address": {
-        "content": [
-            {
-                "title": "Cửa hàng Tp HCM:",
-                "content": "225/3 Nguyẽn Đình Chiểu, Phường 5, Quận 3, TP.HCM"
-            },
-            {
-                "title": "Cửa hàng Hà Nội:",
-                "content": "2b, ngõ 143, Kim Mã, Ba Đình, Hà Nội"
-            },
-            {
-                "title": "Chi nhánh Hà Nội",
-                "content": "65 Trần Phú, Ba Đình Hà Nội"
-            }
-        ]
+    {
+      "url": "cauhoithuonggap",
+      "title": "Các câu hỏi thường gặp",
+      "content": [
+        {
+          "title": "Trong qua trình giao hàng liệu sản phẩm có bị ảnh hưởng đều gì không?",
+          "content": "Khách hàng thân mến mỗi sản phẩm của shop đều được kiểm tra và đóng gói rất kỹ càng cộng thêm đội ngũ vận chuyển của shop rất nhiều kinh nghiệm làm tỉ mỉ cẩn thận nên sẽ mang tới cho khách hàng những sản phẩm chất lượng và toàn vẹn nhất"
+        },
+        {
+          "title": "Thời gian giao hàng là bao lâu?",
+          "content": "Đối với khách hàng ở Hà Nội hoặc thành phố Hồ Chí Minh thì thời gian nhận hàng sẽ là dưới 1 ngày còn ở các tình thành khác thì sẽ là dưới 2 ngày hoặc khách hàng có thể chọn phương thức giao hàng nhanh dưới 90p (chỉ áp dụng khách hàng ở HN và HCM)"
+        },
+        {
+          "title": "Nếu tôi nhận hàng về và phát hiện hàng bị hư hỏng hoặc không đúng mẫu đã đặt thì sao?",
+          "content": "Quý khách hàng yên tâm, đừng vội dánh giá shop vội mà hãy liên hệ ngay với đội ngũ hỗ trợ cảu shop để được xử lý một cách nhanh nhất"
+        }
+      ]
     },
+    {
+      "url": "chinhsachhoantien",
+      "title": "Chính sách hoàn tiền",
+      "content": [
+        {
+          "title": "Chính sách đổi trả là gì ?",
+          "content": "Nếu chất lượng của hoa tươi – quà tặng nhận được khiến bạn không hài lòng, Flower Corner sẽ hỗ trợ giải quyết cho bạn. Hãy chụp và gửi cho Flower Corner hình ảnh của hoa tươi- quà tặng đó cùng yêu cầu của bạn. Flower Corner sẽ giải quyết mọi phản ánh của bạn về vấn đề chất lượng trong vòng một ngày sau khi nhận được hình ảnh. Phản ảnh về vấn đề đơn hàng không tới nơi, bạn phải thông báo trong vòng một ngày kể từ ngày ấn định được giao của đơn hàng,  Thanh toán sẽ được hoàn thông qua thẻ tín dụng, Paypal hoặc bất kỳ phương thức thanh toán nào bạn đã sử dụng để đặt hàng. Yêu cầu hoàn tiền của bạn sẽ không phát sinh chi phí. Các quy định trên được đưa ra nhằm mục đích kiểm soát chất lượng và thu thập sản phẩm lỗi. Flower Corner sẽ không thể gửi sản phẩm mới hoặc thực hiện hoàn trả nếu bạn không giữ lại sản phẩm lỗi hoặc không có hình ảnh chứng minh. "
+        },
+        {
+          "title": "Chính sách trả hàng và hoàn tiền tại Flower Corner",
+          "content": "Flower Corner luôn đề cao lợi ích của khách hàng, đảm bảo sự hài lòng của bạn là sứ mệnh của chúng tôi. Tại Flower Corner sản phẩm cũng như việc giao hàng được quản lý chặt chẽ và đảm bảo diễn ra một cách hoàn hảo. Vì tính chất sản phẩm hoa tươi là rất dễ hư hỏng nên nếu có bất kỳ sơ suất nào, chúng tôi sẽ luôn lắng nghe những lo lắng, phản ánh của bạn và hợp tác giải quyết vấn đề nhanh nhất có thể. Nhân viên chăm sóc khách hàng của Flower Corner được đào tạo để hỗ trợ xử lý các vấn đề của bạn một cách nhanh chóng hiệu quả. chính sách hoàn tiền gồm : khách hàng chắc chắn sẽ nhận được hoàn trả đầy đủ,khách hàng sẽ được hoàn lại 50%,không hoàn trả"
+        }
+      ]
+    },
+    {
+      "url": "chinhsachvanchuyen",
+      "title": "Chính sách vận chuyển",
+      "content": [
+        {
+          "title": "Khu vực giao hàng",
+          "content": "Shop hoa tươi Flower Corner cung cấp dịch vụ đặt hoa tươi và giao hoa tận nơi tại TP HCM và 63 tỉnh - thành phố tại Việt Nam."
+        },
+        {
+          "title": "Thời gian giao hàng",
+          "content": "Flower Corner cam kết giao hoa sớm nhất sau 2 tiếng và muộn nhất là 3 ngày kể từ khi khách hàng đặt hoa và tiến hành thanh toán thành công. Thời gian giao hàng từ 7h30 sáng đến 20h. Với những đơn đặt hàng sau 20h sẽ được giao vào sáng ngày kế tiếp."
+        },
+        {
+          "title": "Phí giao hàng",
+          "content": "Flower Corner miễn phí giao hoa trong khu vực nội thành TP HCM. Phí giao hoa khu vực ngoại thành TP HCM là 35.000đ. còn đối với các thành phố khác sẽ là 50.000đ"
+        }
+      ]
+    },
+    {
+      "url": "thongtinlienhe",
+      "title": "Thông tin liên hệ",
+      "content": [
+        {
+          "title": "Địa chỉ văn phòng:",
+          "content": "143 Kim Mã, Ba Dình, Hà Nội"
+        },
+        {
+          "title": "Email của Flower Corner Shop",
+          "content": "FlowerSCornerhop@gmail.com"
+        },
+        {
+          "title": "Hoặc gọi trực tiếp qua hotline:",
+          "content": "0372770547 - 0904920714"
+        }
+      ]
+    },
+    {
+      "url": "tai-sao-nen-chon-flower-corner",
+      "title": "Tại Sao Nên Chọn FlowerCorner.vn",
+      "content": [
+        {
+          "title": "Nguồn hoa tươi trực tiếp từ mỗi địa phương",
+          "content": "Chất lượng hoa tươi luôn được FlowerCorner đặt lên hàng đầu. Tại FlowerCorner chỉ những bông hoa ưu tú nhất được tuyển chọn để bảo đảm màu sắc tươi tắn và tuổi thọ hoa được lâu. Những bông hoa được sử dụng luôn bảo đảm đạt được tiêu chuẩn vể màu sắc, kích thước, sự đồng đều của các hoa. FlowerCorner sử dụng nguồn hoa tại vườn, liên kết với các nguồn hoa uy tín đa dạng về loài hoa, màu sắc và bảo đảm chất lượng cao nhất mà vẫn giữ được mức giá rẻ phù hợp với ngân sách của nhiều đối tượng khách hàng. "
+        },
+        {
+          "title": "Giờ làm việc:",
+          "content": "FlowerCorner nhận đơn hàng và giao hàng suốt 7 ngày/ tuần – bao gồm cả các ngày lễ với ưu tiêu chí gửi gắm lời yêu thương đến người nhận trong ngày đặc biệt nhanh chóng- tiết kiệm- hiệu quả.  "
+        },
+        {
+          "title": "Các dịch vụ tặng kèm và dịch vụ khác",
+          "content": "Mỗi đơn hàng được đặt với FlowerCorner đều được tặng kèm thiệp/ banner miễn phí với lời nhắn bất kỳ theo yêu cầu của bạn trong quá trình đặt hàng. Ngoài hoa tươi FlowerCorner có nhận gửi kèm quà tặng gấu bông và tạo đơn hàng theo yêu cầu (giỏ trái cây, bánh kem v….) tất cả sản phẩm này đều được lựa chọn kỹ lưỡng. Để đặt hàng các sản phẩm không có trong website bạn chỉ cần liên hệ qua email hoặc số điện thoại để được kết nối và tư vấn bởi bộ phận chăm sóc khách hàng của chúng tôi."
+        },
+        {
+          "title": "Dịch vụ chăm sóc khách hàng chuyên nghiệp",
+          "content": "Đội ngũ nhân viên chăm sóc khách hàng tại FlowerCorner được đào tạo bài bản với kiến thức rộng về hoa tươi và quà tặng cũng như phong cách hỗ trợ chuyên nghiệp, tận tình để đem lại một trải nghiệp dịch vụ chuyên nghiệp đến khách hàng. Chúng tôi luôn túc trực hỗ trợ bạn trực tuyến trên website, điện thoại, e-mail, có mặt kịp thời để giải đáp thắc mắc và hỗ trợ bạn chu đáo nhất. Nếu bạn có bất cứ phản ánh nào về chất lượng sản phẩm, giao hàng chậm trễ...bạn có thể liên hệ trực tuyến, gọi điện hay gửi e-mail cho chúng tôi theo thông tin “Liên hệ” được cung cấp trên website."
+        },
+        {
+          "title": "Chính sách giao hàng trong ngày",
+          "content": "FlowerCorner có dịch vụ chuyển phát hoa tươi – quà tặng nhanh trong vòng 3 tiếng"
+        }
+      ]
+    }
+  ],
 
-    "logo_shop":"https://www.flowercorner.vn/image/catalog/common/shop-hoa-tuoi-flowercorner-logo.png.webp"
+  "fl": {
+    "content": [
+      {
+        "item": "Facebook",
+        "icon": "fa-brands fa-xl fa-facebook",
+        "href": "https://www.facebook.com/flowercorner.vn/"
+      },
+      {
+        "item": "Instagram",
+        "icon": "fa-brands fa-xl fa-instagram",
+        "href": "https://www.instagram.com/flowercorner.vn/"
+      },
+      {
+        "item": "Youtobe",
+        "icon": "fa-brands fa-xl fa-youtube",
+        "href": "https://www.youtube.com/flowercorner"
+      },
+      {
+        "item": "Twitter",
+        "icon": "fa-brands fa-xl fa-twitter",
+        "href": "https://twitter.com/FlowerCorner3"
+      }
+    ]
+  },
+
+  "address": {
+    "content": [
+      {
+        "title": "Cửa hàng Tp HCM:",
+        "content": "225/3 Nguyẽn Đình Chiểu, Phường 5, Quận 3, TP.HCM"
+      },
+      {
+        "title": "Cửa hàng Hà Nội:",
+        "content": "2b, ngõ 143, Kim Mã, Ba Đình, Hà Nội"
+      },
+      {
+        "title": "Chi nhánh Hà Nội",
+        "content": "65 Trần Phú, Ba Đình Hà Nội"
+      }
+    ]
+  },
+
+  "logo_shop": "https://www.flowercorner.vn/image/catalog/common/shop-hoa-tuoi-flowercorner-logo.png.webp"
 }

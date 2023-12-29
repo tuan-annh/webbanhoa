@@ -21,6 +21,15 @@ export default function ContentHomePage() {
           nhất và dịch chuyên nghiệp nhất khi sử dụng dịch vụ đặt hoa tươi
           online giao tận nơi tại Flowercorner.vn.
         </span>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/slv6L1Bzk14?si=GsUZ73z5640afEnW"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
 
         <span className="font-semibold text-2xl">
           Đặt Hoa Online – Ưu Đãi Hấp Dẫn
@@ -175,5 +184,5 @@ export default function ContentHomePage() {
         </span>
       </div>
     </div>
-  );
+  )
 }

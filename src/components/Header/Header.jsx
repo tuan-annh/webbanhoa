@@ -55,7 +55,7 @@ export default function Header() {
       <div className="flex-col gap-3 sm:flex-row flex items-center my-5 mx-3">
         <div className="sm:flex gap-3 basis-1/3 justify-center hidden">
           <a
-            href="https://www.facebook.com/profile.php?id=100009244548897"
+            href="https://www.facebook.com/flowercorner.vn/"
             target="_blank"
             rel="noreferrer"
           >
@@ -67,7 +67,7 @@ export default function Header() {
             />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=100009244548897"
+            href="https://twitter.com/FlowerCorner3"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,7 +79,7 @@ export default function Header() {
             />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=100009244548897"
+            href="https://www.instagram.com/flowercorner.vn/"
             target="_blank"
             rel="noreferrer"
           >
